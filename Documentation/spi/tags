@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRAY_SIZE	spidev_test.c	24;"	d	file:
+always	Makefile	/^always := $(hostprogs-y)$/;"	m
+bits	spidev_test.c	/^static uint8_t bits = 8;$/;"	v	file:
+delay	spidev_test.c	/^static uint16_t delay;$/;"	v	file:
+device	spidev_test.c	/^static const char *device = "\/dev\/spidev1.1";$/;"	v	file:
+do_msg	spidev_fdx.c	/^static void do_msg(int fd, int len)$/;"	f	file:	signature:(int fd, int len)
+do_read	spidev_fdx.c	/^static void do_read(int fd, int len)$/;"	f	file:	signature:(int fd, int len)
+dumpstat	spidev_fdx.c	/^static void dumpstat(const char *name, int fd)$/;"	f	file:	signature:(const char *name, int fd)
+hostprogs-y	Makefile	/^hostprogs-y := spidev_test spidev_fdx$/;"	m
+main	spidev_fdx.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	spidev_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+mode	spidev_test.c	/^static uint8_t mode;$/;"	v	file:
+obj-	Makefile	/^obj- := dummy.o$/;"	m
+pabort	spidev_test.c	/^static void pabort(const char *s)$/;"	f	file:	signature:(const char *s)
+parse_opts	spidev_test.c	/^static void parse_opts(int argc, char *argv[])$/;"	f	file:	signature:(int argc, char *argv[])
+print_usage	spidev_test.c	/^static void print_usage(const char *prog)$/;"	f	file:	signature:(const char *prog)
+speed	spidev_test.c	/^static uint32_t speed = 500000;$/;"	v	file:
+transfer	spidev_test.c	/^static void transfer(int fd)$/;"	f	file:	signature:(int fd)
+verbose	spidev_fdx.c	/^static int verbose;$/;"	v	file:

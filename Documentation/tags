@@ -1,0 +1,1091 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+#1	cdrom/cdrom-standard.tex	/^\\newcommand{\\newsection}[1]{\\newpage\\section{#1}}$/;"	s
+$Int  cdrom_ioctl  struct  inode  ip  struct  file  fp  unsigned  int  cmd  unsigned  long  arg  $	cdrom/cdrom-standard.tex	/^and $invalidate_buffers(dev)$.$/;"	u
+$Int  cdrom_open  struct  inode  ip  struct  file  fp  $	cdrom/cdrom-standard.tex	/^success, and non-zero upon failure.$/;"	u
+$Int  get_last_session  struct  cdrom_device_info  cdi  struct  cdrom_multisession  ms_info  $	cdrom/cdrom-standard.tex	/^the ide-cd driver supports this functionality.$/;"	u
+$Int  get_mcn  struct  cdrom_device_info  cdi  struct  cdrom_mcn  mcn  $	cdrom/cdrom-standard.tex	/^necessary. The return value is 0 upon success.$/;"	u
+$Int  lock_door  struct  cdrom_device_info  cdi  int  lock  $	cdrom/cdrom-standard.tex	/^action need be taken, and the return value should be 0. $/;"	u
+$Int  select_disc  struct  cdrom_device_info  cdi  int  number  $	cdrom/cdrom-standard.tex	/^return value indicates an error.$/;"	u
+$Int  select_speed  struct  cdrom_device_info  cdi  int  speed  $	cdrom/cdrom-standard.tex	/^action need be taken, and the return value should be 0. $/;"	u
+$Int  tray_move  struct  cdrom_device_info  cdi  int  position  $	cdrom/cdrom-standard.tex	/^changes to software (\\eg, an auto-mounting daemon).$/;"	u
+$Void  cdrom_release  struct  inode  ip  struct  file  fp  $	cdrom/cdrom-standard.tex	/^transferred to the device_dependent $open()$ call.$/;"	u
+$Void  unregister_cdrom  struct  cdrom_device_info  cdi  $	cdrom/cdrom-standard.tex	/^active. $Register_cdrom()$ builds a linked list from these. $/;"	u
+ADDR	vm/hugepage-mmap.c	31;"	d	file:
+ADDR	vm/hugepage-mmap.c	34;"	d	file:
+ADDR	vm/hugepage-shm.c	47;"	d	file:
+ADDR	vm/hugepage-shm.c	50;"	d	file:
+ADDR	vm/map_hugetlb.c	27;"	d	file:
+ADDR	vm/map_hugetlb.c	30;"	d	file:
+APP_NAME	networking/ifenslave.c	99;"	d	file:
+APP_RELDATE	networking/ifenslave.c	98;"	d	file:
+APP_VERSION	networking/ifenslave.c	97;"	d	file:
+ARRAY_SIZE	spi/spidev_test.c	24;"	d	file:
+ARRAY_SIZE	vm/page-types.c	205;"	d	file:
+And what about standards 	cdrom/cdrom-standard.tex	/^\\end{itemize}$/;"	u
+BIT	vm/page-types.c	111;"	d	file:
+BITS_COMPOUND	vm/page-types.c	112;"	d	file:
+BOOKS	DocBook/Makefile	/^BOOKS := $(addprefix $(obj)\/,$(DOCBOOKS))$/;"	m
+BRIDGE_PFX	lguest/lguest.c	66;"	d	file:
+CFAG12864B_ADDRESS	auxdisplay/cfag12864b-example.c	42;"	d	file:
+CFAG12864B_BIT	auxdisplay/cfag12864b-example.c	44;"	d	file:
+CFAG12864B_BPB	auxdisplay/cfag12864b-example.c	41;"	d	file:
+CFAG12864B_CHECK	auxdisplay/cfag12864b-example.c	48;"	d	file:
+CFAG12864B_CHECK	auxdisplay/cfag12864b-example.c	51;"	d	file:
+CFAG12864B_DOCHECK	auxdisplay/cfag12864b-example.c	46;"	d	file:
+CFAG12864B_HEIGHT	auxdisplay/cfag12864b-example.c	39;"	d	file:
+CFAG12864B_SIZE	auxdisplay/cfag12864b-example.c	40;"	d	file:
+CFAG12864B_WIDTH	auxdisplay/cfag12864b-example.c	38;"	d	file:
+CFLAGS	lguest/Makefile	/^CFLAGS:=-m32 -Wall -Wmissing-declarations -Wmissing-prototypes -O3 -I..\/..\/include -I..\/..\/arch\/x86\/include -U_FORTIFY_SOURCE$/;"	m
+CHILDLESS_ATTR	filesystems/configfs/configfs_example_macros.c	61;"	d	file:
+CHILDLESS_ATTR_RO	filesystems/configfs/configfs_example_macros.c	63;"	d	file:
+CN_TEST_IDX	connector/ucon.c	48;"	d	file:
+CN_TEST_VAL	connector/ucon.c	49;"	d	file:
+D	laptops/dslm.c	19;"	d	file:
+D	laptops/dslm.c	21;"	d	file:
+DEBUG	connector/ucon.c	44;"	d	file:
+DEVICE_PAGES	lguest/lguest.c	71;"	d	file:
+DOCBOOKS	DocBook/Makefile	/^DOCBOOKS := z8530book.xml mcabook.xml device-drivers.xml \\$/;"	m
+DOCPROC	DocBook/Makefile	/^DOCPROC   = $(objtree)\/scripts\/basic\/docproc$/;"	m
+DRIVER_NAME	blackfin/gptimers-example.c	18;"	d	file:
+Device dependent $ioctl$s	cdrom/cdrom-standard.tex	/^\\end{description}$/;"	b
+Directly implemented $ioctl$s	cdrom/cdrom-standard.tex	/^negative return value indicates an error.$/;"	b
+EVENT_PROCESS	trace/postprocess/trace-pagealloc-postprocess.pl	/^EVENT_PROCESS:$/;"	l
+EVENT_UNKNOWN	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant EVENT_UNKNOWN		=> 7;$/;"	c
+EXAMPLES	auxdisplay/cfag12864b-example.c	198;"	d	file:
+FILE_NAME	vm/hugepage-mmap.c	25;"	d	file:
+FLAGS	vm/hugepage-mmap.c	32;"	d	file:
+FLAGS	vm/hugepage-mmap.c	35;"	d	file:
+FLAGS	vm/map_hugetlb.c	28;"	d	file:
+FLAGS	vm/map_hugetlb.c	31;"	d	file:
+FunctionGraphFoldExpr	trace/function-graph-fold.vim	/^function! FunctionGraphFoldExpr(lnum)$/;"	f
+FunctionGraphFoldText	trace/function-graph-fold.vim	/^function! FunctionGraphFoldText()$/;"	f
+GENLMSG_DATA	accounting/getdelays.c	35;"	d	file:
+GENLMSG_PAYLOAD	accounting/getdelays.c	36;"	d	file:
+HASH_KEY	vm/page-types.c	194;"	d	file:
+HASH_MASK	vm/page-types.c	193;"	d	file:
+HASH_SHIFT	vm/page-types.c	191;"	d	file:
+HASH_SIZE	vm/page-types.c	192;"	d	file:
+HIGH_EXT_FRAGMENT	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant HIGH_EXT_FRAGMENT		=> 12;$/;"	c
+HIGH_EXT_FRAGMENT_CHANGED	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant HIGH_EXT_FRAGMENT_CHANGED	=> 15;$/;"	c
+HIGH_EXT_FRAGMENT_MODERATE	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant HIGH_EXT_FRAGMENT_MODERATE	=> 14;$/;"	c
+HIGH_EXT_FRAGMENT_SEVERE	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant HIGH_EXT_FRAGMENT_SEVERE	=> 13;$/;"	c
+HIGH_PCPU_DRAINS	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant HIGH_PCPU_DRAINS		=> 10;$/;"	c
+HIGH_PCPU_REFILLS	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant HIGH_PCPU_REFILLS		=> 11;$/;"	c
+HTML	DocBook/Makefile	/^HTML := $(sort $(patsubst %.xml, %.html, $(BOOKS)))$/;"	m
+KERNELDOC	DocBook/Makefile	/^KERNELDOC = $(srctree)\/scripts\/kernel-doc$/;"	m
+KPAGEFLAGS_BATCH	vm/page-types.c	567;"	d	file:
+KPF_ACTIVE	vm/page-types.c	71;"	d	file:
+KPF_ALL_BITS	vm/page-types.c	108;"	d	file:
+KPF_ANON	vm/page-types.c	79;"	d	file:
+KPF_ARCH	vm/page-types.c	97;"	d	file:
+KPF_BUDDY	vm/page-types.c	75;"	d	file:
+KPF_BYTES	vm/page-types.c	61;"	d	file:
+KPF_COMPOUND_HEAD	vm/page-types.c	82;"	d	file:
+KPF_COMPOUND_TAIL	vm/page-types.c	83;"	d	file:
+KPF_DIRTY	vm/page-types.c	69;"	d	file:
+KPF_ERROR	vm/page-types.c	66;"	d	file:
+KPF_HACKERS_BITS	vm/page-types.c	109;"	d	file:
+KPF_HUGE	vm/page-types.c	84;"	d	file:
+KPF_HWPOISON	vm/page-types.c	86;"	d	file:
+KPF_KSM	vm/page-types.c	88;"	d	file:
+KPF_LOCKED	vm/page-types.c	65;"	d	file:
+KPF_LRU	vm/page-types.c	70;"	d	file:
+KPF_MAPPEDTODISK	vm/page-types.c	93;"	d	file:
+KPF_MLOCKED	vm/page-types.c	92;"	d	file:
+KPF_MMAP	vm/page-types.c	78;"	d	file:
+KPF_NOPAGE	vm/page-types.c	87;"	d	file:
+KPF_OVERLOADED_BITS	vm/page-types.c	110;"	d	file:
+KPF_OWNER_PRIVATE	vm/page-types.c	96;"	d	file:
+KPF_PRIVATE	vm/page-types.c	94;"	d	file:
+KPF_PRIVATE_2	vm/page-types.c	95;"	d	file:
+KPF_READAHEAD	vm/page-types.c	103;"	d	file:
+KPF_RECLAIM	vm/page-types.c	74;"	d	file:
+KPF_REFERENCED	vm/page-types.c	67;"	d	file:
+KPF_RESERVED	vm/page-types.c	91;"	d	file:
+KPF_SLAB	vm/page-types.c	72;"	d	file:
+KPF_SLOB_FREE	vm/page-types.c	104;"	d	file:
+KPF_SLUB_DEBUG	vm/page-types.c	106;"	d	file:
+KPF_SLUB_FROZEN	vm/page-types.c	105;"	d	file:
+KPF_SWAPBACKED	vm/page-types.c	81;"	d	file:
+KPF_SWAPCACHE	vm/page-types.c	80;"	d	file:
+KPF_UNCACHED	vm/page-types.c	98;"	d	file:
+KPF_UNEVICTABLE	vm/page-types.c	85;"	d	file:
+KPF_UPTODATE	vm/page-types.c	68;"	d	file:
+KPF_WRITEBACK	vm/page-types.c	73;"	d	file:
+LATEXFILE	cdrom/Makefile	/^LATEXFILE = cdrom-standard$/;"	m
+LENGTH	vm/hugepage-mmap.c	26;"	d	file:
+LENGTH	vm/hugepage-shm.c	41;"	d	file:
+LENGTH	vm/map_hugetlb.c	18;"	d	file:
+MAN	DocBook/Makefile	/^MAN := $(patsubst %.xml, %.9, $(BOOKS))$/;"	m
+MAP_HUGETLB	vm/map_hugetlb.c	22;"	d	file:
+MAX_ADDR_RANGES	vm/page-types.c	164;"	d	file:
+MAX_ALIASES	vm/slabinfo.c	23;"	d	file:
+MAX_BIT_FILTERS	vm/page-types.c	174;"	d	file:
+MAX_CPUS	accounting/getdelays.c	64;"	d	file:
+MAX_MSG_SIZE	accounting/getdelays.c	62;"	d	file:
+MAX_NODES	vm/slabinfo.c	24;"	d	file:
+MAX_SLABS	vm/slabinfo.c	22;"	d	file:
+MAX_VMAS	vm/page-types.c	169;"	d	file:
+MM_PAGEVEC_FREE	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant MM_PAGEVEC_FREE		=> 3;$/;"	c
+MM_PAGE_ALLOC	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant MM_PAGE_ALLOC		=> 1;$/;"	c
+MM_PAGE_ALLOC_EXTFRAG	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant MM_PAGE_ALLOC_EXTFRAG	=> 6;$/;"	c
+MM_PAGE_ALLOC_ZONE_LOCKED	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant MM_PAGE_ALLOC_ZONE_LOCKED	=> 5;$/;"	c
+MM_PAGE_FREE_DIRECT	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant MM_PAGE_FREE_DIRECT 	=> 2;$/;"	c
+MM_PAGE_PCPU_DRAIN	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant MM_PAGE_PCPU_DRAIN		=> 4;$/;"	c
+NETLINK_CONNECTOR	connector/ucon.c	45;"	d	file:
+NLA_DATA	accounting/getdelays.c	37;"	d	file:
+NLA_PAYLOAD	accounting/getdelays.c	38;"	d	file:
+PAGEMAP_BATCH	vm/page-types.c	591;"	d	file:
+PAGE_PRESENT	lguest/lguest.c	65;"	d	file:
+PDF	DocBook/Makefile	/^PDF := $(patsubst %.xml, %.pdf, $(BOOKS))$/;"	m
+PDF_METHOD	DocBook/Makefile	/^PDF_METHOD	= $(prefer-db2x)$/;"	m
+PM_ENTRY_BYTES	vm/page-types.c	41;"	d	file:
+PM_PFRAME	vm/page-types.c	51;"	d	file:
+PM_PFRAME_MASK	vm/page-types.c	50;"	d	file:
+PM_PRESENT	vm/page-types.c	53;"	d	file:
+PM_PSHIFT	vm/page-types.c	49;"	d	file:
+PM_PSHIFT_BITS	vm/page-types.c	46;"	d	file:
+PM_PSHIFT_MASK	vm/page-types.c	48;"	d	file:
+PM_PSHIFT_OFFSET	vm/page-types.c	47;"	d	file:
+PM_STATUS	vm/page-types.c	45;"	d	file:
+PM_STATUS_BITS	vm/page-types.c	42;"	d	file:
+PM_STATUS_MASK	vm/page-types.c	44;"	d	file:
+PM_STATUS_OFFSET	vm/page-types.c	43;"	d	file:
+PM_SWAP	vm/page-types.c	54;"	d	file:
+PRINTF	accounting/getdelays.c	55;"	d	file:
+PROC_KPAGEFLAGS	vm/page-types.c	62;"	d	file:
+PROTECTION	vm/hugepage-mmap.c	27;"	d	file:
+PROTECTION	vm/map_hugetlb.c	19;"	d	file:
+PR_GET_TSC	prctl/disable-tsc-ctxt-sw-stress-test.c	24;"	d	file:
+PR_GET_TSC	prctl/disable-tsc-on-off-stress-test.c	24;"	d	file:
+PR_GET_TSC	prctl/disable-tsc-test.c	19;"	d	file:
+PR_SET_TSC	prctl/disable-tsc-ctxt-sw-stress-test.c	25;"	d	file:
+PR_SET_TSC	prctl/disable-tsc-on-off-stress-test.c	25;"	d	file:
+PR_SET_TSC	prctl/disable-tsc-test.c	20;"	d	file:
+PR_TSC_ENABLE	prctl/disable-tsc-ctxt-sw-stress-test.c	26;"	d	file:
+PR_TSC_ENABLE	prctl/disable-tsc-on-off-stress-test.c	26;"	d	file:
+PR_TSC_ENABLE	prctl/disable-tsc-test.c	21;"	d	file:
+PR_TSC_SIGSEGV	prctl/disable-tsc-ctxt-sw-stress-test.c	27;"	d	file:
+PR_TSC_SIGSEGV	prctl/disable-tsc-on-off-stress-test.c	27;"	d	file:
+PR_TSC_SIGSEGV	prctl/disable-tsc-test.c	22;"	d	file:
+PS	DocBook/Makefile	/^PS := $(patsubst %.xml, %.ps, $(BOOKS))$/;"	m
+PS_METHOD	DocBook/Makefile	/^PS_METHOD	= $(prefer-db2x)$/;"	m
+READ_VIDEO_PIXEL	video4linux/v4lgrab.c	40;"	d	file:
+SCM_TIMESTAMPING	networking/timestamping/timestamping.c	50;"	d	file:
+SHMAT_FLAGS	vm/hugepage-shm.c	48;"	d	file:
+SHMAT_FLAGS	vm/hugepage-shm.c	51;"	d	file:
+SHM_HUGETLB	vm/hugepage-shm.c	38;"	d	file:
+SIOCBRADDIF	lguest/lguest.c	68;"	d	file:
+SIOCGSTAMPNS	networking/timestamping/timestamping.c	58;"	d	file:
+SIOCSHWTSTAMP	networking/timestamping/timestamping.c	62;"	d	file:
+SO_TIMESTAMPING	networking/timestamping/timestamping.c	49;"	d	file:
+SO_TIMESTAMPNS	networking/timestamping/timestamping.c	54;"	d	file:
+STATE_PCPU_PAGES_DRAINED	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant STATE_PCPU_PAGES_DRAINED	=> 8;$/;"	c
+STATE_PCPU_PAGES_REFILLED	trace/postprocess/trace-pagealloc-postprocess.pl	/^use constant STATE_PCPU_PAGES_REFILLED	=> 9;$/;"	c
+USAGE_STR	cgroups/cgroup_event_listener.c	18;"	d	file:
+VIDEO_DEV	video4linux/v4lgrab.c	36;"	d	file:
+VIRTQUEUE_NUM	lguest/lguest.c	73;"	d	file:
+XMLTOFLAGS	DocBook/Makefile	/^XMLTOFLAGS = -m $(srctree)\/Documentation\/DocBook\/stylesheet.xsl$/;"	m
+_GNU_SOURCE	filesystems/dnotify_test.c	1;"	d	file:
+_GNU_SOURCE	lguest/lguest.c	8;"	d	file:
+_LARGEFILE64_SOURCE	lguest/lguest.c	7;"	d	file:
+_LARGEFILE64_SOURCE	vm/page-types.c	22;"	d	file:
+_check_pointer	lguest/lguest.c	/^static void *_check_pointer(unsigned long addr, unsigned int size,$/;"	f	file:	signature:(unsigned long addr, unsigned int size, unsigned int line)
+_convert	lguest/lguest.c	/^static void *_convert(struct iovec *iov, size_t size, size_t align,$/;"	f	file:	signature:(struct iovec *iov, size_t size, size_t align, const char *name)
+abi_ver	networking/ifenslave.c	/^int abi_ver = 0;	\/* userland - kernel ABI version *\/$/;"	v
+accepted_feature	lguest/lguest.c	/^static bool accepted_feature(struct device *dev, unsigned int bit)$/;"	f	file:	signature:(struct device *dev, unsigned int bit)
+actual_slabs	vm/slabinfo.c	/^int actual_slabs = 0;$/;"	v
+add_addr_range	vm/page-types.c	/^static void add_addr_range(unsigned long offset, unsigned long size)$/;"	f	file:	signature:(unsigned long offset, unsigned long size)
+add_bits_filter	vm/page-types.c	/^static void add_bits_filter(uint64_t mask, uint64_t bits)$/;"	f	file:	signature:(uint64_t mask, uint64_t bits)
+add_feature	lguest/lguest.c	/^static void add_feature(struct device *dev, unsigned bit)$/;"	f	file:	signature:(struct device *dev, unsigned bit)
+add_page	vm/page-types.c	/^static void add_page(unsigned long voffset,$/;"	f	file:	signature:(unsigned long voffset, unsigned long offset, uint64_t flags)
+add_to_bridge	lguest/lguest.c	/^static void add_to_bridge(int fd, const char *if_name, const char *br_name)$/;"	f	file:	signature:(int fd, const char *if_name, const char *br_name)
+add_used	lguest/lguest.c	/^static void add_used(struct virtqueue *vq, unsigned int head, int len)$/;"	f	file:	signature:(struct virtqueue *vq, unsigned int head, int len)
+add_used_and_trigger	lguest/lguest.c	/^static void add_used_and_trigger(struct virtqueue *vq, unsigned head, int len)$/;"	f	file:	signature:(struct virtqueue *vq, unsigned head, int len)
+add_virtqueue	lguest/lguest.c	/^static void add_virtqueue(struct device *dev, unsigned int num_descs,$/;"	f	file:	signature:(struct device *dev, unsigned int num_descs, void (*service)(struct virtqueue *))
+af9015	dvb/get_dvb_firmware	/^sub af9015 {$/;"	s
+aggregate_perprocesspid	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub aggregate_perprocesspid() {$/;"	s
+alias	vm/slabinfo.c	/^	int alias;$/;"	m	struct:slabinfo	file:	access:public
+alias	vm/slabinfo.c	/^static void alias(void)$/;"	f	file:	signature:(void)
+alias_targets	vm/slabinfo.c	/^int alias_targets = 0;$/;"	v
+aliases	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+aliases	vm/slabinfo.c	/^int aliases = 0;$/;"	v
+aliasinfo	vm/slabinfo.c	/^struct aliasinfo {$/;"	s	file:
+aliasinfo	vm/slabinfo.c	/^} aliasinfo[MAX_ALIASES];$/;"	v	typeref:struct:aliasinfo
+aliasinfo::name	vm/slabinfo.c	/^	char *name;$/;"	m	struct:aliasinfo	file:	access:public
+aliasinfo::ref	vm/slabinfo.c	/^	char *ref;$/;"	m	struct:aliasinfo	file:	access:public
+aliasinfo::slab	vm/slabinfo.c	/^	struct slabinfo *slab;$/;"	m	struct:aliasinfo	typeref:struct:aliasinfo::slabinfo	file:	access:public
+align	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+alloc_fastpath	vm/slabinfo.c	/^	unsigned long alloc_fastpath, alloc_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+alloc_from_partial	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+alloc_refill	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+alloc_slab	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+alloc_slowpath	vm/slabinfo.c	/^	unsigned long alloc_fastpath, alloc_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+always	DocBook/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	accounting/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	auxdisplay/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	connector/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	filesystems/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	ia64/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	laptops/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	networking/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	networking/timestamping/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	pcmcia/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	spi/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	timers/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	video4linux/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	vm/Makefile	/^always := $(hostprogs-y)$/;"	m
+always	watchdog/src/Makefile	/^always := $(hostprogs-y)$/;"	m
+appendfile	dvb/get_dvb_firmware	/^sub appendfile {$/;"	s
+attr	filesystems/configfs/configfs_example_explicit.c	/^	struct configfs_attribute attr;$/;"	m	struct:childless_attribute	typeref:struct:childless_attribute::configfs_attribute	file:	access:public
+av7110	dvb/get_dvb_firmware	/^sub av7110 {$/;"	s
+bail	networking/timestamping/timestamping.c	/^static void bail(const char *error)$/;"	f	file:	signature:(const char *error)
+bit_mask_ok	vm/page-types.c	/^static int bit_mask_ok(uint64_t flags)$/;"	f	file:	signature:(uint64_t flags)
+bits	spi/spidev_test.c	/^static uint8_t bits = 8;$/;"	v	file:
+blk_request	lguest/lguest.c	/^static void blk_request(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+bluebird	dvb/get_dvb_firmware	/^sub bluebird {$/;"	s
+buf	accounting/getdelays.c	/^	char buf[MAX_MSG_SIZE];$/;"	m	struct:msgtemplate	file:	access:public
+buf	ia64/aliasing-test.c	/^char buf[1024];$/;"	v
+buf	networking/cxacru-cf.py	/^	buf = sys.stdin.read(4)$/;"	v
+buffer	vm/slabinfo.c	/^char buffer[4096];$/;"	v
+build_images	DocBook/Makefile	/^build_images = mkdir -p $(objtree)\/Documentation\/DocBook\/media\/ && \\$/;"	m
+build_main_index	DocBook/Makefile	/^build_main_index = rm -rf $(main_idx) && \\$/;"	m
+cache_dma	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+cfag12864b_blit	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_blit(void)$/;"	f	file:	signature:(void)
+cfag12864b_buffer	auxdisplay/cfag12864b-example.c	/^unsigned char cfag12864b_buffer[CFAG12864B_SIZE];$/;"	v
+cfag12864b_clear	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_clear(void)$/;"	f	file:	signature:(void)
+cfag12864b_exit	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_exit(void)$/;"	f	file:	signature:(void)
+cfag12864b_fd	auxdisplay/cfag12864b-example.c	/^int cfag12864b_fd;$/;"	v
+cfag12864b_fill	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_fill(void)$/;"	f	file:	signature:(void)
+cfag12864b_format	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_format(unsigned char * matrix)$/;"	f	file:	signature:(unsigned char * matrix)
+cfag12864b_init	auxdisplay/cfag12864b-example.c	/^static int cfag12864b_init(char *path)$/;"	f	file:	signature:(char *path)
+cfag12864b_isset	auxdisplay/cfag12864b-example.c	/^static unsigned char cfag12864b_isset(unsigned char x, unsigned char y)$/;"	f	file:	signature:(unsigned char x, unsigned char y)
+cfag12864b_mem	auxdisplay/cfag12864b-example.c	/^unsigned char * cfag12864b_mem;$/;"	v
+cfag12864b_not	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_not(unsigned char x, unsigned char y)$/;"	f	file:	signature:(unsigned char x, unsigned char y)
+cfag12864b_set	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_set(unsigned char x, unsigned char y)$/;"	f	file:	signature:(unsigned char x, unsigned char y)
+cfag12864b_unset	auxdisplay/cfag12864b-example.c	/^static void cfag12864b_unset(unsigned char x, unsigned char y)$/;"	f	file:	signature:(unsigned char x, unsigned char y)
+change_active	networking/ifenslave.c	/^static int change_active(char *master_ifname, char *slave_ifname)$/;"	f	file:	signature:(char *master_ifname, char *slave_ifname)
+change_active	networking/ifenslave.c	/^static int change_active(char *master_ifname, char *slave_ifname);$/;"	p	file:	signature:(char *master_ifname, char *slave_ifname)
+check_bytes	vm/hugepage-mmap.c	/^static void check_bytes(char *addr)$/;"	f	file:	signature:(char *addr)
+check_bytes	vm/map_hugetlb.c	/^static void check_bytes(char *addr)$/;"	f	file:	signature:(char *addr)
+check_pointer	lguest/lguest.c	588;"	d	file:
+check_powermode	laptops/dslm.c	/^static int check_powermode(int fd)$/;"	f	file:	signature:(int fd)
+checked_open	vm/page-types.c	/^static int checked_open(const char *pathname, int flags)$/;"	f	file:	signature:(const char *pathname, int flags)
+checkstandard	dvb/get_dvb_firmware	/^sub checkstandard {$/;"	s
+checkunshield	dvb/get_dvb_firmware	/^sub checkunshield {$/;"	s
+childless	filesystems/configfs/configfs_example_explicit.c	/^struct childless {$/;"	s	file:
+childless	filesystems/configfs/configfs_example_macros.c	/^CONFIGFS_ATTR_OPS(childless);$/;"	v
+childless	filesystems/configfs/configfs_example_macros.c	/^CONFIGFS_ATTR_STRUCT(childless);$/;"	v
+childless	filesystems/configfs/configfs_example_macros.c	/^struct childless {$/;"	s	file:
+childless::showme	filesystems/configfs/configfs_example_explicit.c	/^	int showme;$/;"	m	struct:childless	file:	access:public
+childless::showme	filesystems/configfs/configfs_example_macros.c	/^	int showme;$/;"	m	struct:childless	file:	access:public
+childless::storeme	filesystems/configfs/configfs_example_explicit.c	/^	int storeme;$/;"	m	struct:childless	file:	access:public
+childless::storeme	filesystems/configfs/configfs_example_macros.c	/^	int storeme;$/;"	m	struct:childless	file:	access:public
+childless::subsys	filesystems/configfs/configfs_example_explicit.c	/^	struct configfs_subsystem subsys;$/;"	m	struct:childless	typeref:struct:childless::configfs_subsystem	file:	access:public
+childless::subsys	filesystems/configfs/configfs_example_macros.c	/^	struct configfs_subsystem subsys;$/;"	m	struct:childless	typeref:struct:childless::configfs_subsystem	file:	access:public
+childless_attr_description	filesystems/configfs/configfs_example_explicit.c	/^static struct childless_attribute childless_attr_description = {$/;"	v	typeref:struct:childless_attribute	file:
+childless_attr_show	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t childless_attr_show(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, char *page)
+childless_attr_showme	filesystems/configfs/configfs_example_explicit.c	/^static struct childless_attribute childless_attr_showme = {$/;"	v	typeref:struct:childless_attribute	file:
+childless_attr_store	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t childless_attr_store(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, const char *page, size_t count)
+childless_attr_storeme	filesystems/configfs/configfs_example_explicit.c	/^static struct childless_attribute childless_attr_storeme = {$/;"	v	typeref:struct:childless_attribute	file:
+childless_attribute	filesystems/configfs/configfs_example_explicit.c	/^struct childless_attribute {$/;"	s	file:
+childless_attribute::attr	filesystems/configfs/configfs_example_explicit.c	/^	struct configfs_attribute attr;$/;"	m	struct:childless_attribute	typeref:struct:childless_attribute::configfs_attribute	file:	access:public
+childless_attribute::show	filesystems/configfs/configfs_example_explicit.c	/^	ssize_t (*show)(struct childless *, char *);$/;"	m	struct:childless_attribute	file:	access:public
+childless_attribute::store	filesystems/configfs/configfs_example_explicit.c	/^	ssize_t (*store)(struct childless *, const char *, size_t);$/;"	m	struct:childless_attribute	file:	access:public
+childless_attrs	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_attribute *childless_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+childless_attrs	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_attribute *childless_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+childless_description_read	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t childless_description_read(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, char *page)
+childless_description_read	filesystems/configfs/configfs_example_macros.c	/^static ssize_t childless_description_read(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, char *page)
+childless_item_ops	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_item_operations childless_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+childless_item_ops	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_item_operations childless_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+childless_showme_read	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t childless_showme_read(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, char *page)
+childless_showme_read	filesystems/configfs/configfs_example_macros.c	/^static ssize_t childless_showme_read(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, char *page)
+childless_storeme_read	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t childless_storeme_read(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, char *page)
+childless_storeme_read	filesystems/configfs/configfs_example_macros.c	/^static ssize_t childless_storeme_read(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, char *page)
+childless_storeme_write	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t childless_storeme_write(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, const char *page, size_t count)
+childless_storeme_write	filesystems/configfs/configfs_example_macros.c	/^static ssize_t childless_storeme_write(struct childless *childless,$/;"	f	file:	signature:(struct childless *childless, const char *page, size_t count)
+childless_subsys	filesystems/configfs/configfs_example_explicit.c	/^static struct childless childless_subsys = {$/;"	v	typeref:struct:childless	file:
+childless_subsys	filesystems/configfs/configfs_example_macros.c	/^static struct childless childless_subsys = {$/;"	v	typeref:struct:childless	file:
+childless_type	filesystems/configfs/configfs_example_explicit.c	/^static struct config_item_type childless_type = {$/;"	v	typeref:struct:config_item_type	file:
+childless_type	filesystems/configfs/configfs_example_macros.c	/^static struct config_item_type childless_type = {$/;"	v	typeref:struct:config_item_type	file:
+clean-dirs	DocBook/Makefile	/^clean-dirs := $(patsubst %.xml,%,$(DOCBOOKS)) man$/;"	m
+clean-files	DocBook/Makefile	/^clean-files := $(DOCBOOKS) \\$/;"	m
+cleanup_devices	lguest/lguest.c	/^static void cleanup_devices(void)$/;"	f	file:	signature:(void)
+clear_if_addr	networking/ifenslave.c	/^static int clear_if_addr(char *ifname)$/;"	f	file:	signature:(char *ifname)
+clear_if_addr	networking/ifenslave.c	/^static int clear_if_addr(char *ifname);$/;"	p	file:	signature:(char *ifname)
+cmd_db2html	DocBook/Makefile	/^      cmd_db2html = xmlto xhtml $(XMLTOFLAGS) -o $(patsubst %.html,%,$@) $< && \\$/;"	m
+cmd_db2man	DocBook/Makefile	/^      cmd_db2man = if grep -q refentry $<; then xmlto man $(XMLTOFLAGS) -o $(obj)\/man $< ; gzip -f $(obj)\/man\/*.9; fi$/;"	m
+cmd_db2pdf	DocBook/Makefile	/^      cmd_db2pdf = $(subst TYPE,pdf, $($(PDF_METHOD)template))$/;"	m
+cmd_db2ps	DocBook/Makefile	/^      cmd_db2ps = $(subst TYPE,ps, $($(PS_METHOD)template))$/;"	m
+cmd_docproc	DocBook/Makefile	/^      cmd_docproc = SRCTREE=$(srctree)\/ $(DOCPROC) doc $< >$@$/;"	m
+cmd_fig2eps	DocBook/Makefile	/^      cmd_fig2eps = fig2dev -Leps $< $@$/;"	m
+cmd_fig2png	DocBook/Makefile	/^      cmd_fig2png = fig2dev -Lpng $< $@$/;"	m
+cmd_files	DocBook/Makefile	/^cmd_files := $(wildcard $(foreach f,$(BOOKS),$(dir $(f)).$(notdir $(f)).cmd))$/;"	m
+cn_test_callback	connector/cn_test.c	/^static void cn_test_callback(struct cn_msg *msg, struct netlink_skb_parms *nsp)$/;"	f	file:	signature:(struct cn_msg *msg, struct netlink_skb_parms *nsp)
+cn_test_fini	connector/cn_test.c	/^module_exit(cn_test_fini);$/;"	v
+cn_test_fini	connector/cn_test.c	/^static void cn_test_fini(void)$/;"	f	file:	signature:(void)
+cn_test_id	connector/cn_test.c	/^static struct cb_id cn_test_id = { CN_NETLINK_USERS + 3, 0x456 };$/;"	v	typeref:struct:cb_id	file:
+cn_test_init	connector/cn_test.c	/^module_init(cn_test_init);$/;"	v
+cn_test_init	connector/cn_test.c	/^static int cn_test_init(void)$/;"	f	file:	signature:(void)
+cn_test_name	connector/cn_test.c	/^static char cn_test_name[] = "cn_test";$/;"	v	file:
+cn_test_timer	connector/cn_test.c	/^static struct timer_list cn_test_timer;$/;"	v	typeref:struct:timer_list	file:
+cn_test_timer_counter	connector/cn_test.c	/^static u32 cn_test_timer_counter;$/;"	v	file:
+cn_test_timer_func	connector/cn_test.c	/^static void cn_test_timer_func(unsigned long __data)$/;"	f	file:	signature:(unsigned long __data)
+command	timers/hpet_example.c	/^	char		*command;$/;"	m	struct:hpet_command	file:	access:public
+concat	lguest/lguest.c	/^static void concat(char *dst, char *args[])$/;"	f	file:	signature:(char *dst, char *args[])
+config	lguest/lguest.c	/^	struct lguest_vqconfig config;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::lguest_vqconfig	file:	access:public
+configfs_example_exit	filesystems/configfs/configfs_example_explicit.c	/^module_exit(configfs_example_exit);$/;"	v
+configfs_example_exit	filesystems/configfs/configfs_example_explicit.c	/^static void __exit configfs_example_exit(void)$/;"	f	file:	signature:(void)
+configfs_example_exit	filesystems/configfs/configfs_example_macros.c	/^module_exit(configfs_example_exit);$/;"	v
+configfs_example_exit	filesystems/configfs/configfs_example_macros.c	/^static void __exit configfs_example_exit(void)$/;"	f	file:	signature:(void)
+configfs_example_init	filesystems/configfs/configfs_example_explicit.c	/^module_init(configfs_example_init);$/;"	v
+configfs_example_init	filesystems/configfs/configfs_example_explicit.c	/^static int __init configfs_example_init(void)$/;"	f	file:	signature:(void)
+configfs_example_init	filesystems/configfs/configfs_example_macros.c	/^module_init(configfs_example_init);$/;"	v
+configfs_example_init	filesystems/configfs/configfs_example_macros.c	/^static int __init configfs_example_init(void)$/;"	f	file:	signature:(void)
+configure_device	lguest/lguest.c	/^static void configure_device(int fd, const char *tapif, u32 ipaddr)$/;"	f	file:	signature:(int fd, const char *tapif, u32 ipaddr)
+console_abort	lguest/lguest.c	/^struct console_abort {$/;"	s	file:
+console_abort::count	lguest/lguest.c	/^	int count;$/;"	m	struct:console_abort	file:	access:public
+console_abort::start	lguest/lguest.c	/^	struct timeval start;$/;"	m	struct:console_abort	typeref:struct:console_abort::timeval	file:	access:public
+console_input	lguest/lguest.c	/^static void console_input(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+console_output	lguest/lguest.c	/^static void console_output(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+convert	lguest/lguest.c	193;"	d	file:
+copy	dvb/get_dvb_firmware	/^sub copy {$/;"	s
+count	lguest/lguest.c	/^	int count;$/;"	m	struct:console_abort	file:	access:public
+cpu_id	lguest/lguest.c	/^static unsigned int __thread cpu_id;$/;"	v	file:
+cpu_slabs	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+cpu_to_le16	lguest/lguest.c	213;"	d	file:
+cpu_to_le32	lguest/lguest.c	214;"	d	file:
+cpu_to_le64	lguest/lguest.c	215;"	d	file:
+cpumask	accounting/getdelays.c	/^char cpumask[100+6*MAX_CPUS];$/;"	v
+cpuslab_flush	vm/slabinfo.c	/^	unsigned long cpuslab_flush, deactivate_full, deactivate_empty;$/;"	m	struct:slabinfo	file:	access:public
+crc32	pcmcia/crc32hash.c	/^static unsigned int crc32(unsigned char const *p, unsigned int len)$/;"	f	file:	signature:(unsigned char const *p, unsigned int len)
+create_nl_socket	accounting/getdelays.c	/^static int create_nl_socket(int protocol)$/;"	f	file:	signature:(int protocol)
+create_thread	lguest/lguest.c	/^static void create_thread(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+cx18	dvb/get_dvb_firmware	/^sub cx18 {$/;"	s
+cx231xx	dvb/get_dvb_firmware	/^sub cx231xx {$/;"	s
+cx23885	dvb/get_dvb_firmware	/^sub cx23885 {$/;"	s
+data	blackfin/gptimers-example.c	/^static struct gptimer_data data;$/;"	v	typeref:struct:gptimer_data	file:
+db2xtemplate	DocBook/Makefile	/^db2xtemplate = db2TYPE -o $(dir $@) $<$/;"	m
+dbg	accounting/getdelays.c	/^int dbg;$/;"	v
+deactivate_empty	vm/slabinfo.c	/^	unsigned long cpuslab_flush, deactivate_full, deactivate_empty;$/;"	m	struct:slabinfo	file:	access:public
+deactivate_full	vm/slabinfo.c	/^	unsigned long cpuslab_flush, deactivate_full, deactivate_empty;$/;"	m	struct:slabinfo	file:	access:public
+deactivate_remote_frees	vm/slabinfo.c	/^	unsigned long deactivate_remote_frees, order_fallback;$/;"	m	struct:slabinfo	file:	access:public
+deactivate_to_head	vm/slabinfo.c	/^	unsigned long deactivate_to_head, deactivate_to_tail;$/;"	m	struct:slabinfo	file:	access:public
+deactivate_to_tail	vm/slabinfo.c	/^	unsigned long deactivate_to_head, deactivate_to_tail;$/;"	m	struct:slabinfo	file:	access:public
+debug_opt_scan	vm/slabinfo.c	/^static int debug_opt_scan(char *opt)$/;"	f	file:	signature:(char *opt)
+dec2000t	dvb/get_dvb_firmware	/^sub dec2000t {$/;"	s
+dec2540t	dvb/get_dvb_firmware	/^sub dec2540t {$/;"	s
+dec3000s	dvb/get_dvb_firmware	/^sub dec3000s {$/;"	s
+decode_numa_list	vm/slabinfo.c	/^static void decode_numa_list(int *numa, char *t)$/;"	f	file:	signature:(int *numa, char *t)
+delay	spi/spidev_test.c	/^static uint16_t delay;$/;"	v	file:
+delzero	dvb/get_dvb_firmware	/^sub delzero{$/;"	s
+desc	lguest/lguest.c	/^	struct lguest_device_desc *desc;$/;"	m	struct:device	typeref:struct:device::lguest_device_desc	file:	access:public
+descpage	lguest/lguest.c	/^	u8 *descpage;$/;"	m	struct:device_list	file:	access:public
+describe_flags	vm/page-types.c	/^static void describe_flags(const char *optarg)$/;"	f	file:	signature:(const char *optarg)
+destroy_by_rcu	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+dev	lguest/lguest.c	/^	struct device *dev;$/;"	m	struct:device_list	typeref:struct:device_list::device	file:	access:public
+dev	lguest/lguest.c	/^	struct device *dev;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::device	file:	access:public
+dev_ifr	networking/ifenslave.c	/^struct dev_ifr {$/;"	s	file:
+dev_ifr::req_ifr	networking/ifenslave.c	/^	struct ifreq *req_ifr;$/;"	m	struct:dev_ifr	typeref:struct:dev_ifr::ifreq	file:	access:public
+dev_ifr::req_name	networking/ifenslave.c	/^	char *req_name;$/;"	m	struct:dev_ifr	file:	access:public
+dev_ifr::req_type	networking/ifenslave.c	/^	int req_type;$/;"	m	struct:dev_ifr	file:	access:public
+device	lguest/lguest.c	/^struct device {$/;"	s	file:
+device	spi/spidev_test.c	/^static const char *device = "\/dev\/spidev1.1";$/;"	v	file:
+device::desc	lguest/lguest.c	/^	struct lguest_device_desc *desc;$/;"	m	struct:device	typeref:struct:device::lguest_device_desc	file:	access:public
+device::feature_len	lguest/lguest.c	/^	unsigned int feature_len;$/;"	m	struct:device	file:	access:public
+device::irq_on_empty	lguest/lguest.c	/^	bool irq_on_empty;$/;"	m	struct:device	file:	access:public
+device::name	lguest/lguest.c	/^	const char *name;$/;"	m	struct:device	file:	access:public
+device::next	lguest/lguest.c	/^	struct device *next;$/;"	m	struct:device	typeref:struct:device::device	file:	access:public
+device::num_vq	lguest/lguest.c	/^	unsigned int num_vq;$/;"	m	struct:device	file:	access:public
+device::priv	lguest/lguest.c	/^	void *priv;$/;"	m	struct:device	file:	access:public
+device::running	lguest/lguest.c	/^	bool running;$/;"	m	struct:device	file:	access:public
+device::vq	lguest/lguest.c	/^	struct virtqueue *vq;$/;"	m	struct:device	typeref:struct:device::virtqueue	file:	access:public
+device_config	lguest/lguest.c	/^static u8 *device_config(const struct device *dev)$/;"	f	file:	signature:(const struct device *dev)
+device_list	lguest/lguest.c	/^struct device_list {$/;"	s	file:
+device_list::descpage	lguest/lguest.c	/^	u8 *descpage;$/;"	m	struct:device_list	file:	access:public
+device_list::dev	lguest/lguest.c	/^	struct device *dev;$/;"	m	struct:device_list	typeref:struct:device_list::device	file:	access:public
+device_list::device_num	lguest/lguest.c	/^	unsigned int device_num;$/;"	m	struct:device_list	file:	access:public
+device_list::lastdev	lguest/lguest.c	/^	struct device *lastdev;$/;"	m	struct:device_list	typeref:struct:device_list::device	file:	access:public
+device_list::next_irq	lguest/lguest.c	/^	unsigned int next_irq;$/;"	m	struct:device_list	file:	access:public
+device_num	lguest/lguest.c	/^	unsigned int device_num;$/;"	m	struct:device_list	file:	access:public
+devices	lguest/lguest.c	/^static struct device_list devices;$/;"	v	typeref:struct:device_list	file:
+dibusb	dvb/get_dvb_firmware	/^sub dibusb {$/;"	s
+do_msg	spi/spidev_fdx.c	/^static void do_msg(int fd, int len)$/;"	f	file:	signature:(int fd, int len)
+do_read	spi/spidev_fdx.c	/^static void do_read(int fd, int len)$/;"	f	file:	signature:(int fd, int len)
+do_thread	lguest/lguest.c	/^static int do_thread(void *_vq)$/;"	f	file:	signature:(void *_vq)
+do_u64_read	vm/page-types.c	/^static unsigned long do_u64_read(int fd, char *name,$/;"	f	file:	signature:(int fd, char *name, uint64_t *buf, unsigned long index, unsigned long count)
+done	accounting/getdelays.c	/^int done;$/;"	v
+dprintf	vm/hugepage-shm.c	43;"	d	file:
+dump_stats	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub dump_stats {$/;"	s
+dumpstat	spi/spidev_fdx.c	/^static void dumpstat(const char *name, int fd)$/;"	f	file:	signature:(const char *name, int fd)
+ender	laptops/dslm.c	/^static void ender(int s)$/;"	f	file:	signature:(int s)
+endit	laptops/dslm.c	/^int endit = 0;$/;"	v
+enslave	networking/ifenslave.c	/^static int enslave(char *master_ifname, char *slave_ifname)$/;"	f	file:	signature:(char *master_ifname, char *slave_ifname)
+enslave	networking/ifenslave.c	/^static int enslave(char *master_ifname, char *slave_ifname);$/;"	p	file:	signature:(char *master_ifname, char *slave_ifname)
+err	accounting/getdelays.c	40;"	d	file:
+event_fd	filesystems/dnotify_test.c	/^static volatile int event_fd;$/;"	v	file:
+eventfd	lguest/lguest.c	/^	int eventfd;$/;"	m	struct:virtqueue	file:	access:public
+example	auxdisplay/cfag12864b-example.c	/^static void example(unsigned char n)$/;"	f	file:	signature:(unsigned char n)
+example_subsys	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_subsystem *example_subsys[] = {$/;"	v	typeref:struct:configfs_subsystem	file:
+example_subsys	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_subsystem *example_subsys[] = {$/;"	v	typeref:struct:configfs_subsystem	file:
+expand_overloaded_flags	vm/page-types.c	/^static uint64_t expand_overloaded_flags(uint64_t flags)$/;"	f	file:	signature:(uint64_t flags)
+extract	dvb/get_dvb_firmware	/^sub extract {$/;"	s
+extract_firmware	video4linux/extract_xc3028.pl	/^sub extract_firmware {$/;"	s
+extract_value	arm/Samsung/clksrc-change-registers.awk	/^function extract_value(s)$/;"	f
+fatal	vm/page-types.c	/^static void fatal(const char *x, ...)$/;"	f	file:	signature:(const char *x, ...)
+fatal	vm/slabinfo.c	/^static void fatal(const char *x, ...)$/;"	f	file:	signature:(const char *x, ...)
+fd	lguest/lguest.c	/^	int fd;$/;"	m	struct:vblk_info	file:	access:public
+fd	watchdog/src/watchdog-test.c	/^int fd;$/;"	v
+feature_len	lguest/lguest.c	/^	unsigned int feature_len;$/;"	m	struct:device	file:	access:public
+find_length	arm/Samsung/clksrc-change-registers.awk	/^function find_length(f)$/;"	f
+find_one_alias	vm/slabinfo.c	/^static struct aliasinfo *find_one_alias(struct slabinfo *find)$/;"	f	file:	signature:(struct slabinfo *find)
+find_shift	arm/Samsung/clksrc-change-registers.awk	/^function find_shift(s)$/;"	f
+first_line	vm/slabinfo.c	/^static void first_line(void)$/;"	f	file:	signature:(void)
+free_add_partial	vm/slabinfo.c	/^	unsigned long free_frozen, free_add_partial, free_remove_partial;$/;"	m	struct:slabinfo	file:	access:public
+free_fastpath	vm/slabinfo.c	/^	unsigned long free_fastpath, free_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+free_frozen	vm/slabinfo.c	/^	unsigned long free_frozen, free_add_partial, free_remove_partial;$/;"	m	struct:slabinfo	file:	access:public
+free_remove_partial	vm/slabinfo.c	/^	unsigned long free_frozen, free_add_partial, free_remove_partial;$/;"	m	struct:slabinfo	file:	access:public
+free_slab	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+free_slowpath	vm/slabinfo.c	/^	unsigned long free_fastpath, free_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+from_guest_phys	lguest/lguest.c	/^static void *from_guest_phys(unsigned long addr)$/;"	f	file:	signature:(unsigned long addr)
+func	timers/hpet_example.c	/^	void		(*func)(int argc, const char ** argv);$/;"	m	struct:hpet_command	file:	access:public
+g	accounting/getdelays.c	/^	struct genlmsghdr g;$/;"	m	struct:msgtemplate	typeref:struct:msgtemplate::genlmsghdr	file:	access:public
+gen_xml	DocBook/Makefile	/^       gen_xml = :$/;"	m
+generate_traceevent_regex	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub generate_traceevent_regex {$/;"	s
+get_brightness_adj	video4linux/v4lgrab.c	/^static int get_brightness_adj(unsigned char *image, long size, int *brightness) {$/;"	f	file:	signature:(unsigned char *image, long size, int *brightness)
+get_drv_info	networking/ifenslave.c	/^static int get_drv_info(char *master_ifname)$/;"	f	file:	signature:(char *master_ifname)
+get_drv_info	networking/ifenslave.c	/^static int get_drv_info(char *master_ifname);$/;"	p	file:	signature:(char *master_ifname)
+get_family_id	accounting/getdelays.c	/^static int get_family_id(int sd)$/;"	f	file:	signature:(int sd)
+get_feature_bits	lguest/lguest.c	/^static u8 *get_feature_bits(struct device *dev)$/;"	f	file:	signature:(struct device *dev)
+get_hunk	video4linux/extract_xc3028.pl	/^sub get_hunk ($$)$/;"	s
+get_if_settings	networking/ifenslave.c	/^static int get_if_settings(char *ifname, struct dev_ifr ifra[])$/;"	f	file:	signature:(char *ifname, struct dev_ifr ifra[])
+get_if_settings	networking/ifenslave.c	/^static int get_if_settings(char *ifname, struct dev_ifr ifra[]);$/;"	p	file:	signature:(char *ifname, struct dev_ifr ifra[])
+get_obj	vm/slabinfo.c	/^static unsigned long get_obj(const char *name)$/;"	f	file:	signature:(const char *name)
+get_obj_and_str	vm/slabinfo.c	/^static unsigned long get_obj_and_str(const char *name, char **x)$/;"	f	file:	signature:(const char *name, char **x)
+get_pages	lguest/lguest.c	/^static void *get_pages(unsigned int num)$/;"	f	file:	signature:(unsigned int num)
+get_slave_flags	networking/ifenslave.c	/^static int get_slave_flags(char *slave_ifname)$/;"	f	file:	signature:(char *slave_ifname)
+get_slave_flags	networking/ifenslave.c	/^static int get_slave_flags(char *slave_ifname);$/;"	p	file:	signature:(char *slave_ifname)
+get_tun_device	lguest/lguest.c	/^static int get_tun_device(char tapif[IFNAMSIZ])$/;"	f	file:	signature:(char tapif[IFNAMSIZ])
+gptimer_data	blackfin/gptimers-example.c	/^struct gptimer_data {$/;"	s	file:
+gptimer_data::period	blackfin/gptimers-example.c	/^	uint32_t period, width;$/;"	m	struct:gptimer_data	file:	access:public
+gptimer_data::width	blackfin/gptimers-example.c	/^	uint32_t period, width;$/;"	m	struct:gptimer_data	file:	access:public
+gptimer_example_exit	blackfin/gptimers-example.c	/^module_exit(gptimer_example_exit);$/;"	v
+gptimer_example_exit	blackfin/gptimers-example.c	/^static void __exit gptimer_example_exit(void)$/;"	f	file:	signature:(void)
+gptimer_example_init	blackfin/gptimers-example.c	/^module_init(gptimer_example_init);$/;"	v
+gptimer_example_init	blackfin/gptimers-example.c	/^static int __init gptimer_example_init(void)$/;"	f	file:	signature:(void)
+gptimer_example_irq	blackfin/gptimers-example.c	/^static irqreturn_t gptimer_example_irq(int irq, void *dev_id)$/;"	f	file:	signature:(int irq, void *dev_id)
+group	filesystems/configfs/configfs_example_explicit.c	/^	struct config_group group;$/;"	m	struct:simple_children	typeref:struct:simple_children::config_group	file:	access:public
+group	filesystems/configfs/configfs_example_macros.c	/^	struct config_group group;$/;"	m	struct:simple_children	typeref:struct:simple_children::config_group	file:	access:public
+group_children_attr_description	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_attribute group_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_attr_description	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_attribute group_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_attr_show	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t group_children_attr_show(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, char *page)
+group_children_attr_show	filesystems/configfs/configfs_example_macros.c	/^static ssize_t group_children_attr_show(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, char *page)
+group_children_attrs	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_attribute *group_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_attrs	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_attribute *group_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_group_ops	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_group_operations group_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+group_children_group_ops	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_group_operations group_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+group_children_item_ops	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_item_operations group_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+group_children_item_ops	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_item_operations group_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+group_children_make_group	filesystems/configfs/configfs_example_explicit.c	/^static struct config_group *group_children_make_group(struct config_group *group, const char *name)$/;"	f	file:	signature:(struct config_group *group, const char *name)
+group_children_make_group	filesystems/configfs/configfs_example_macros.c	/^static struct config_group *group_children_make_group(struct config_group *group, const char *name)$/;"	f	file:	signature:(struct config_group *group, const char *name)
+group_children_subsys	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_subsystem group_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+group_children_subsys	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_subsystem group_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+group_children_type	filesystems/configfs/configfs_example_explicit.c	/^static struct config_item_type group_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+group_children_type	filesystems/configfs/configfs_example_macros.c	/^static struct config_item_type group_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+guess_process_pid	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub guess_process_pid($$) {$/;"	s
+guest_base	lguest/lguest.c	/^static void *guest_base;$/;"	v	file:
+guest_limit	lguest/lguest.c	/^static unsigned long guest_limit, guest_max;$/;"	v	file:
+guest_max	lguest/lguest.c	/^static unsigned long guest_limit, guest_max;$/;"	v	file:
+handle_output	lguest/lguest.c	/^static void handle_output(unsigned long addr)$/;"	f	file:	signature:(unsigned long addr)
+handler	filesystems/dnotify_test.c	/^static void handler(int sig, siginfo_t *si, void *data)$/;"	f	file:	signature:(int sig, siginfo_t *si, void *data)
+hash_slot	vm/page-types.c	/^static int hash_slot(uint64_t flags)$/;"	f	file:	signature:(uint64_t flags)
+help	usb/wusb-cbaf	/^function help$/;"	f
+help_msg	networking/ifenslave.c	/^static const char *help_msg =$/;"	v	file:
+highest_node	vm/slabinfo.c	/^int highest_node = 0;$/;"	v
+hostprogs-y	accounting/Makefile	/^hostprogs-y := getdelays$/;"	m
+hostprogs-y	auxdisplay/Makefile	/^hostprogs-y := cfag12864b-example$/;"	m
+hostprogs-y	connector/Makefile	/^hostprogs-y := ucon$/;"	m
+hostprogs-y	filesystems/Makefile	/^hostprogs-y := dnotify_test$/;"	m
+hostprogs-y	ia64/Makefile	/^hostprogs-y := aliasing-test$/;"	m
+hostprogs-y	laptops/Makefile	/^hostprogs-y := dslm$/;"	m
+hostprogs-y	networking/Makefile	/^hostprogs-y := ifenslave$/;"	m
+hostprogs-y	networking/timestamping/Makefile	/^hostprogs-y := timestamping$/;"	m
+hostprogs-y	pcmcia/Makefile	/^hostprogs-y := crc32hash$/;"	m
+hostprogs-y	spi/Makefile	/^hostprogs-y := spidev_test spidev_fdx$/;"	m
+hostprogs-y	video4linux/Makefile	/^hostprogs-y := v4lgrab$/;"	m
+hostprogs-y	vm/Makefile	/^hostprogs-y := slabinfo page-types hugepage-mmap hugepage-shm map_hugetlb$/;"	m
+hostprogs-y	watchdog/src/Makefile	/^hostprogs-y := watchdog-simple watchdog-test$/;"	m
+hpet_command	timers/hpet_example.c	/^struct hpet_command {$/;"	s	file:
+hpet_command	timers/hpet_example.c	/^} hpet_command[] = {$/;"	v	typeref:struct:hpet_command
+hpet_command::command	timers/hpet_example.c	/^	char		*command;$/;"	m	struct:hpet_command	file:	access:public
+hpet_command::func	timers/hpet_example.c	/^	void		(*func)(int argc, const char ** argv);$/;"	m	struct:hpet_command	file:	access:public
+hpet_fasync	timers/hpet_example.c	/^extern void hpet_fasync(int, const char **);$/;"	p	file:	signature:(int, const char **)
+hpet_fasync	timers/hpet_example.c	/^hpet_fasync(int argc, const char **argv)$/;"	f	signature:(int argc, const char **argv)
+hpet_info	timers/hpet_example.c	/^extern void hpet_info(int, const char **);$/;"	p	file:	signature:(int, const char **)
+hpet_info	timers/hpet_example.c	/^hpet_info(int argc, const char **argv)$/;"	f	signature:(int argc, const char **argv)
+hpet_open_close	timers/hpet_example.c	/^extern void hpet_open_close(int, const char **);$/;"	p	file:	signature:(int, const char **)
+hpet_open_close	timers/hpet_example.c	/^hpet_open_close(int argc, const char **argv)$/;"	f	signature:(int argc, const char **argv)
+hpet_poll	timers/hpet_example.c	/^extern void hpet_poll(int, const char **);$/;"	p	file:	signature:(int, const char **)
+hpet_poll	timers/hpet_example.c	/^hpet_poll(int argc, const char **argv)$/;"	f	signature:(int argc, const char **argv)
+hpet_read	timers/hpet_example.c	/^extern void hpet_read(int, const char **);$/;"	p	file:	signature:(int, const char **)
+hpet_sigio	timers/hpet_example.c	/^hpet_sigio(int val)$/;"	f	file:	signature:(int val)
+hpet_sigio_count	timers/hpet_example.c	/^static int hpet_sigio_count;$/;"	v	file:
+hwaddr_set	networking/ifenslave.c	/^int hwaddr_set = 0;	\/* Master's hwaddr is set *\/$/;"	v
+hwcache_align	vm/slabinfo.c	/^	int hwcache_align, object_size, objs_per_slab;$/;"	m	struct:slabinfo	file:	access:public
+hwpoison_debug_fs	vm/page-types.c	/^static const char	hwpoison_debug_fs[] = "\/debug\/hwpoison";$/;"	v	file:
+hwpoison_forget_fd	vm/page-types.c	/^static int		hwpoison_forget_fd;$/;"	v	file:
+hwpoison_inject_fd	vm/page-types.c	/^static int		hwpoison_inject_fd;$/;"	v	file:
+hwpoison_page	vm/page-types.c	/^static int hwpoison_page(unsigned long offset)$/;"	f	file:	signature:(unsigned long offset)
+i	networking/cxacru-cf.py	/^i = 0$/;"	v
+if_getconfig	networking/ifenslave.c	/^static int if_getconfig(char *ifname)$/;"	f	file:	signature:(char *ifname)
+if_print	networking/ifenslave.c	/^static void if_print(char *ifname)$/;"	f	file:	signature:(char *ifname)
+if_print	networking/ifenslave.c	/^static void if_print(char *ifname);$/;"	p	file:	signature:(char *ifname)
+ignore_me	hwmon/hpfall.c	/^void ignore_me(void)$/;"	f	signature:(void)
+index	DocBook/Makefile	/^index = index.html$/;"	m
+iov_consume	lguest/lguest.c	/^static void iov_consume(struct iovec iov[], unsigned num_iov, unsigned len)$/;"	f	file:	signature:(struct iovec iov[], unsigned num_iov, unsigned len)
+iov_empty	lguest/lguest.c	/^static bool iov_empty(const struct iovec iov[], unsigned int num_iov)$/;"	f	file:	signature:(const struct iovec iov[], unsigned int num_iov)
+irq_on_empty	lguest/lguest.c	/^	bool irq_on_empty;$/;"	m	struct:device	file:	access:public
+item	filesystems/configfs/configfs_example_explicit.c	/^	struct config_item item;$/;"	m	struct:simple_child	typeref:struct:simple_child::config_item	file:	access:public
+item	filesystems/configfs/configfs_example_macros.c	/^	struct config_item item;$/;"	m	struct:simple_child	typeref:struct:simple_child::config_item	file:	access:public
+keep_alive	watchdog/src/watchdog-test.c	/^static void keep_alive(void)$/;"	f	file:	signature:(void)
+kill_launcher	lguest/lguest.c	/^static void kill_launcher(int signal)$/;"	f	file:	signature:(int signal)
+kpageflags_fd	vm/page-types.c	/^static int		kpageflags_fd;$/;"	v	file:
+kpageflags_flags	vm/page-types.c	/^static uint64_t kpageflags_flags(uint64_t flags)$/;"	f	file:	signature:(uint64_t flags)
+kpageflags_read	vm/page-types.c	/^static unsigned long kpageflags_read(uint64_t *buf,$/;"	f	file:	signature:(uint64_t *buf, unsigned long index, unsigned long pages)
+last_avail_idx	lguest/lguest.c	/^	u16 last_avail_idx;$/;"	m	struct:virtqueue	file:	access:public
+lastdev	lguest/lguest.c	/^	struct device *lastdev;$/;"	m	struct:device_list	typeref:struct:device_list::device	file:	access:public
+le16_to_cpu	lguest/lguest.c	216;"	d	file:
+le32_to_cpu	lguest/lguest.c	217;"	d	file:
+le64_to_cpu	lguest/lguest.c	218;"	d	file:
+len	lguest/lguest.c	/^	off64_t len;$/;"	m	struct:vblk_info	file:	access:public
+lg_last_avail	lguest/lguest.c	207;"	d	file:
+lguest_fd	lguest/lguest.c	/^static int lguest_fd;$/;"	v	file:
+lid_open	hwmon/hpfall.c	/^int lid_open(void)$/;"	f	signature:(void)
+line	vm/slabinfo.c	/^int line = 0;$/;"	v
+link_slabs	vm/slabinfo.c	/^static void link_slabs(void)$/;"	f	file:	signature:(void)
+load_bzimage	lguest/lguest.c	/^static unsigned long load_bzimage(int fd)$/;"	f	file:	signature:(int fd)
+load_initrd	lguest/lguest.c	/^static unsigned long load_initrd(const char *name, unsigned long mem)$/;"	f	file:	signature:(const char *name, unsigned long mem)
+load_kernel	lguest/lguest.c	/^static unsigned long load_kernel(int fd)$/;"	f	file:	signature:(int fd)
+longopts	networking/ifenslave.c	/^struct option longopts[] = {$/;"	v	typeref:struct:option
+main	accounting/getdelays.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	auxdisplay/cfag12864b-example.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	cgroups/cgroup_event_listener.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	connector/ucon.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	filesystems/dnotify_test.c	/^int main(void)$/;"	f	signature:(void)
+main	hwmon/hpfall.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	ia64/aliasing-test.c	/^int main(void)$/;"	f	signature:(void)
+main	laptops/dslm.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	lguest/lguest.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	networking/ifenslave.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	networking/timestamping/timestamping.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	pcmcia/crc32hash.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	prctl/disable-tsc-ctxt-sw-stress-test.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	prctl/disable-tsc-on-off-stress-test.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	prctl/disable-tsc-test.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	sound/oss/MultiSound	/^main() { yylex(); }$/;"	f
+main	spi/spidev_fdx.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	spi/spidev_test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	timers/hpet_example.c	/^main(int argc, const char ** argv)$/;"	f	signature:(int argc, const char ** argv)
+main	video4linux/v4lgrab.c	/^int main(int argc, char ** argv)$/;"	f	signature:(int argc, char ** argv)
+main	vm/hugepage-mmap.c	/^int main(void)$/;"	f	signature:(void)
+main	vm/hugepage-shm.c	/^int main(void)$/;"	f	signature:(void)
+main	vm/map_hugetlb.c	/^int main(void)$/;"	f	signature:(void)
+main	vm/page-types.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	vm/slabinfo.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	watchdog/src/watchdog-simple.c	/^int main(void)$/;"	f	signature:(void)
+main	watchdog/src/watchdog-test.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main_args	lguest/lguest.c	/^static char **main_args;$/;"	v	file:
+main_firmware_24	video4linux/extract_xc3028.pl	/^sub main_firmware_24($$$$)$/;"	s
+main_firmware_27	video4linux/extract_xc3028.pl	/^sub main_firmware_27($$$$)$/;"	s
+main_idx	DocBook/Makefile	/^main_idx = Documentation\/DocBook\/$(index)$/;"	m
+makedev	video4linux/bttv/MAKEDEV	/^function makedev () {$/;"	f
+map_at	lguest/lguest.c	/^static void map_at(int fd, void *addr, unsigned long offset, unsigned long len)$/;"	f	file:	signature:(int fd, void *addr, unsigned long offset, unsigned long len)
+map_elf	lguest/lguest.c	/^static unsigned long map_elf(int elf_fd, const Elf32_Ehdr *ehdr)$/;"	f	file:	signature:(int elf_fd, const Elf32_Ehdr *ehdr)
+map_mem	ia64/aliasing-test.c	/^static int map_mem(char *path, off_t offset, size_t length, int touch)$/;"	f	file:	signature:(char *path, off_t offset, size_t length, int touch)
+map_zeroed_pages	lguest/lguest.c	/^static void *map_zeroed_pages(unsigned int num)$/;"	f	file:	signature:(unsigned int num)
+master_flags	networking/ifenslave.c	/^struct ifreq master_mtu, master_flags, master_hwaddr;$/;"	v	typeref:struct:
+master_hwaddr	networking/ifenslave.c	/^struct ifreq master_mtu, master_flags, master_hwaddr;$/;"	v	typeref:struct:
+master_ifra	networking/ifenslave.c	/^struct dev_ifr master_ifra[] = {$/;"	v	typeref:struct:dev_ifr
+master_mtu	networking/ifenslave.c	/^struct ifreq master_mtu, master_flags, master_hwaddr;$/;"	v	typeref:struct:ifreq
+max_t	vm/page-types.c	212;"	d	file:
+mb	lguest/lguest.c	181;"	d	file:
+measure	laptops/dslm.c	/^static void measure(int fd)$/;"	f	file:	signature:(int fd)
+mif_flags	networking/ifenslave.c	/^static short mif_flags;$/;"	v	file:
+min_t	vm/page-types.c	207;"	d	file:
+mode	spi/spidev_test.c	/^static uint8_t mode;$/;"	v	file:
+mpc718	dvb/get_dvb_firmware	/^sub mpc718 {$/;"	s
+msgtemplate	accounting/getdelays.c	/^struct msgtemplate {$/;"	s	file:
+msgtemplate::buf	accounting/getdelays.c	/^	char buf[MAX_MSG_SIZE];$/;"	m	struct:msgtemplate	file:	access:public
+msgtemplate::g	accounting/getdelays.c	/^	struct genlmsghdr g;$/;"	m	struct:msgtemplate	typeref:struct:msgtemplate::genlmsghdr	file:	access:public
+msgtemplate::n	accounting/getdelays.c	/^	struct nlmsghdr n;$/;"	m	struct:msgtemplate	typeref:struct:msgtemplate::nlmsghdr	file:	access:public
+myctime	laptops/dslm.c	/^static char *myctime(time_t time)$/;"	f	file:	signature:(time_t time)
+n	accounting/getdelays.c	/^	struct nlmsghdr n;$/;"	m	struct:msgtemplate	typeref:struct:msgtemplate::nlmsghdr	file:	access:public
+name	accounting/getdelays.c	/^char name[100];$/;"	v
+name	lguest/lguest.c	/^	const char *name;$/;"	m	struct:device	file:	access:public
+name	vm/slabinfo.c	/^	char *name;$/;"	m	struct:aliasinfo	file:	access:public
+name	vm/slabinfo.c	/^	char *name;$/;"	m	struct:slabinfo	file:	access:public
+need_exit	connector/ucon.c	/^static int need_exit;$/;"	v	file:
+net_info	lguest/lguest.c	/^struct net_info {$/;"	s	file:
+net_info::tunfd	lguest/lguest.c	/^	int tunfd;$/;"	m	struct:net_info	file:	access:public
+net_input	lguest/lguest.c	/^static void net_input(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+net_output	lguest/lguest.c	/^static void net_output(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+netlink_send	connector/ucon.c	/^static int netlink_send(int s, struct cn_msg *msg)$/;"	f	file:	signature:(int s, struct cn_msg *msg)
+new_dev_desc	lguest/lguest.c	/^static struct lguest_device_desc *new_dev_desc(u16 type)$/;"	f	file:	signature:(u16 type)
+new_device	lguest/lguest.c	/^static struct device *new_device(const char *name, u16 type)$/;"	f	file:	signature:(const char *name, u16 type)
+next	lguest/lguest.c	/^	struct device *next;$/;"	m	struct:device	typeref:struct:device::device	file:	access:public
+next	lguest/lguest.c	/^	struct virtqueue *next;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::virtqueue	file:	access:public
+next_desc	lguest/lguest.c	/^static unsigned next_desc(struct vring_desc *desc,$/;"	f	file:	signature:(struct vring_desc *desc, unsigned int i, unsigned int max)
+next_irq	lguest/lguest.c	/^	unsigned int next_irq;$/;"	m	struct:device_list	file:	access:public
+ngene	dvb/get_dvb_firmware	/^sub ngene {$/;"	s
+nls	connector/cn_test.c	/^static struct sock *nls;$/;"	v	typeref:struct:sock	file:
+notfoundtemplate	DocBook/Makefile	/^notfoundtemplate = echo "*** You have to install docbook-utils or xmlto ***"; \\$/;"	m
+nr_addr_ranges	vm/page-types.c	/^static int		nr_addr_ranges;$/;"	v	file:
+nr_bit_filters	vm/page-types.c	/^static int		nr_bit_filters;$/;"	v	file:
+nr_pages	vm/page-types.c	/^static unsigned long	nr_pages[HASH_SIZE];$/;"	v	file:
+nr_vmas	vm/page-types.c	/^static int		nr_vmas;$/;"	v	file:
+num_vq	lguest/lguest.c	/^	unsigned int num_vq;$/;"	m	struct:device	file:	access:public
+numa	vm/slabinfo.c	/^	int numa[MAX_NODES];$/;"	m	struct:slabinfo	file:	access:public
+numa_partial	vm/slabinfo.c	/^	int numa_partial[MAX_NODES];$/;"	m	struct:slabinfo	file:	access:public
+nxt2002	dvb/get_dvb_firmware	/^sub nxt2002 {$/;"	s
+nxt2004	dvb/get_dvb_firmware	/^sub nxt2004 {$/;"	s
+obj-	accounting/Makefile	/^obj- := dummy.o$/;"	m
+obj-	auxdisplay/Makefile	/^obj- := dummy.o$/;"	m
+obj-	filesystems/Makefile	/^obj- := dummy.o$/;"	m
+obj-	ia64/Makefile	/^obj- := dummy.o$/;"	m
+obj-	laptops/Makefile	/^obj- := dummy.o$/;"	m
+obj-	networking/Makefile	/^obj- := dummy.o$/;"	m
+obj-	networking/timestamping/Makefile	/^obj- := dummy.o$/;"	m
+obj-	pcmcia/Makefile	/^obj- := dummy.o$/;"	m
+obj-	spi/Makefile	/^obj- := dummy.o$/;"	m
+obj-	timers/Makefile	/^obj- := dummy.o$/;"	m
+obj-	video4linux/Makefile	/^obj- := dummy.o$/;"	m
+obj-	vm/Makefile	/^obj- := dummy.o$/;"	m
+obj-	watchdog/src/Makefile	/^obj- := dummy.o$/;"	m
+obj-m	Makefile	/^obj-m := DocBook\/ accounting\/ auxdisplay\/ connector\/ \\$/;"	m
+obj-m	blackfin/Makefile	/^obj-m := gptimers-example.o$/;"	m
+obj-m	networking/Makefile	/^obj-m := timestamping\/$/;"	m
+object_size	vm/slabinfo.c	/^	int hwcache_align, object_size, objs_per_slab;$/;"	m	struct:slabinfo	file:	access:public
+objects	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+objects_partial	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+objects_total	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+objs_per_slab	vm/slabinfo.c	/^	int hwcache_align, object_size, objs_per_slab;$/;"	m	struct:slabinfo	file:	access:public
+on_ac	hwmon/hpfall.c	/^int on_ac(void)$/;"	f	signature:(void)
+onoff	vm/slabinfo.c	/^static const char *onoff(int x)$/;"	f	file:	signature:(int x)
+open_or_die	lguest/lguest.c	/^static int open_or_die(const char *name, int flags)$/;"	f	file:	signature:(const char *name, int flags)
+opera1	dvb/get_dvb_firmware	/^sub opera1{$/;"	s
+ops	vm/slabinfo.c	/^static void ops(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+opt_V	networking/ifenslave.c	/^opt_V = 0;	\/* Version *\/$/;"	v
+opt_a	networking/ifenslave.c	/^opt_a = 0,	\/* Show-all-interfaces flag. *\/$/;"	v
+opt_bits	vm/page-types.c	/^static uint64_t		opt_bits[MAX_BIT_FILTERS];$/;"	v	file:
+opt_c	networking/ifenslave.c	/^opt_c = 0,	\/* Change-active-slave flag. *\/$/;"	v
+opt_d	networking/ifenslave.c	/^opt_d = 0,	\/* Detach a slave interface. *\/$/;"	v
+opt_f	networking/ifenslave.c	/^opt_f = 0,	\/* Force the operation. *\/$/;"	v
+opt_h	networking/ifenslave.c	/^opt_h = 0,	\/* Help *\/$/;"	v
+opt_hwpoison	vm/page-types.c	/^static int		opt_hwpoison;$/;"	v	file:
+opt_list	vm/page-types.c	/^static int		opt_list;	\/* list pages (in ranges) *\/$/;"	v	file:
+opt_mask	vm/page-types.c	/^static uint64_t		opt_mask[MAX_BIT_FILTERS];$/;"	v	file:
+opt_no_summary	vm/page-types.c	/^static int		opt_no_summary;	\/* don't show summary *\/$/;"	v	file:
+opt_offset	vm/page-types.c	/^static unsigned long	opt_offset[MAX_ADDR_RANGES];$/;"	v	file:
+opt_pid	vm/page-types.c	/^static pid_t		opt_pid;	\/* process to walk *\/$/;"	v	file:
+opt_raw	vm/page-types.c	/^static int		opt_raw;	\/* for kernel developers *\/$/;"	v	file:
+opt_size	vm/page-types.c	/^static unsigned long	opt_size[MAX_ADDR_RANGES];$/;"	v	file:
+opt_u	networking/ifenslave.c	/^opt_u = 0,	\/* Usage *\/$/;"	v
+opt_unpoison	vm/page-types.c	/^static int		opt_unpoison;$/;"	v	file:
+opt_v	networking/ifenslave.c	/^opt_v = 0,	\/* Verbose flag. *\/$/;"	v
+opts	lguest/lguest.c	/^static struct option opts[] = {$/;"	v	typeref:struct:option	file:
+opts	vm/page-types.c	/^static const struct option opts[] = {$/;"	v	typeref:struct:option	file:
+opts	vm/slabinfo.c	/^struct option opts[] = {$/;"	v	typeref:struct:option
+or51132_qam	dvb/get_dvb_firmware	/^sub or51132_qam {$/;"	s
+or51132_vsb	dvb/get_dvb_firmware	/^sub or51132_vsb {$/;"	s
+or51211	dvb/get_dvb_firmware	/^sub or51211 {$/;"	s
+order	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+order_fallback	vm/slabinfo.c	/^	unsigned long deactivate_remote_frees, order_fallback;$/;"	m	struct:slabinfo	file:	access:public
+orig_term	lguest/lguest.c	/^static struct termios orig_term;$/;"	v	typeref:struct:termios	file:
+output_slabs	vm/slabinfo.c	/^static void output_slabs(void)$/;"	f	file:	signature:(void)
+pabort	spi/spidev_test.c	/^static void pabort(const char *s)$/;"	f	file:	signature:(const char *s)
+page_align	lguest/lguest.c	/^static inline unsigned long page_align(unsigned long addr)$/;"	f	file:	signature:(unsigned long addr)
+page_flag_longname	vm/page-types.c	/^static char *page_flag_longname(uint64_t flags)$/;"	f	file:	signature:(uint64_t flags)
+page_flag_name	vm/page-types.c	/^static char *page_flag_name(uint64_t flags)$/;"	f	file:	signature:(uint64_t flags)
+page_flag_names	vm/page-types.c	/^static const char *page_flag_names[] = {$/;"	v	file:
+page_flag_type	vm/page-types.c	/^static const char *page_flag_type(uint64_t flag)$/;"	f	file:	signature:(uint64_t flag)
+page_flags	vm/page-types.c	/^static uint64_t 	page_flags[HASH_SIZE];$/;"	v	file:
+page_size	vm/page-types.c	/^static int		page_size;$/;"	v	file:
+page_size	vm/slabinfo.c	/^int page_size;$/;"	v
+pagemap_fd	vm/page-types.c	/^static int		pagemap_fd;$/;"	v	file:
+pagemap_pfn	vm/page-types.c	/^static unsigned long pagemap_pfn(uint64_t val)$/;"	f	file:	signature:(uint64_t val)
+pagemap_read	vm/page-types.c	/^static unsigned long pagemap_read(uint64_t *buf,$/;"	f	file:	signature:(uint64_t *buf, unsigned long index, unsigned long pages)
+pages2mb	vm/page-types.c	/^static unsigned long pages2mb(unsigned long pages)$/;"	f	file:	signature:(unsigned long pages)
+parent_info	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub parent_info($$) {$/;"	s
+parse_addr_range	vm/page-types.c	/^static void parse_addr_range(const char *optarg)$/;"	f	file:	signature:(const char *optarg)
+parse_bits_mask	vm/page-types.c	/^static void parse_bits_mask(const char *optarg)$/;"	f	file:	signature:(const char *optarg)
+parse_file	vm/page-types.c	/^static void parse_file(const char *name)$/;"	f	file:	signature:(const char *name)
+parse_flag_name	vm/page-types.c	/^static uint64_t parse_flag_name(const char *str, int len)$/;"	f	file:	signature:(const char *str, int len)
+parse_flag_names	vm/page-types.c	/^static uint64_t parse_flag_names(const char *str, int all)$/;"	f	file:	signature:(const char *str, int all)
+parse_number	vm/page-types.c	/^static unsigned long long parse_number(const char *str)$/;"	f	file:	signature:(const char *str)
+parse_opts	spi/spidev_test.c	/^static void parse_opts(int argc, char *argv[])$/;"	f	file:	signature:(int argc, char *argv[])
+parse_pid	vm/page-types.c	/^static void parse_pid(const char *str)$/;"	f	file:	signature:(const char *str)
+partial	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+pattern	vm/slabinfo.c	/^regex_t pattern;$/;"	v
+pending_used	lguest/lguest.c	/^	unsigned int pending_used;$/;"	m	struct:virtqueue	file:	access:public
+period	blackfin/gptimers-example.c	/^	uint32_t period, width;$/;"	m	struct:gptimer_data	file:	access:public
+pg_end	vm/page-types.c	/^static unsigned long	pg_end[MAX_VMAS];$/;"	v	file:
+pg_start	vm/page-types.c	/^static unsigned long	pg_start[MAX_VMAS];$/;"	v	file:
+poison	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+poison	vm/slabinfo.c	/^int poison = 0;$/;"	v
+pr_fmt	connector/cn_test.c	22;"	d	file:
+prefer-db2x	DocBook/Makefile	/^	prefer-db2x = $(use-xmlto)$/;"	m
+prefer-db2x	DocBook/Makefile	/^	prefer-db2x = db2x$/;"	m
+prefer-xmlto	DocBook/Makefile	/^	prefer-xmlto = $(use-db2x)$/;"	m
+prefer-xmlto	DocBook/Makefile	/^	prefer-xmlto = xmlto$/;"	m
+prepare_hwpoison_fd	vm/page-types.c	/^static void prepare_hwpoison_fd(void)$/;"	f	file:	signature:(void)
+print_cgroupstats	accounting/getdelays.c	/^static void print_cgroupstats(struct cgroupstats *c)$/;"	f	file:	signature:(struct cgroupstats *c)
+print_delayacct	accounting/getdelays.c	/^static void print_delayacct(struct taskstats *t)$/;"	f	file:	signature:(struct taskstats *t)
+print_delays	accounting/getdelays.c	/^int print_delays;$/;"	v
+print_io_accounting	accounting/getdelays.c	/^int print_io_accounting;$/;"	v
+print_ioacct	accounting/getdelays.c	/^static void print_ioacct(struct taskstats *t)$/;"	f	file:	signature:(struct taskstats *t)
+print_task_context_switch_counts	accounting/getdelays.c	/^int print_task_context_switch_counts;$/;"	v
+print_usage	spi/spidev_test.c	/^static void print_usage(const char *prog)$/;"	f	file:	signature:(const char *prog)
+printpacket	networking/timestamping/timestamping.c	/^static void printpacket(struct msghdr *msg, int res,$/;"	f	file:	signature:(struct msghdr *msg, int res, char *data, int sock, int recvmsg_flags, int siocgstamp, int siocgstampns)
+priv	lguest/lguest.c	/^	void *priv;$/;"	m	struct:device	file:	access:public
+process_events	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub process_events {$/;"	s
+protect	hwmon/hpfall.c	/^void protect(int seconds)$/;"	f	signature:(int seconds)
+pvrusb2	dvb/get_dvb_firmware	/^sub pvrusb2 {$/;"	s
+quiet_cmd_db2html	DocBook/Makefile	/^quiet_cmd_db2html = HTML    $@$/;"	m
+quiet_cmd_db2man	DocBook/Makefile	/^quiet_cmd_db2man = MAN     $@$/;"	m
+quiet_cmd_db2pdf	DocBook/Makefile	/^quiet_cmd_db2pdf = PDF     $@$/;"	m
+quiet_cmd_db2ps	DocBook/Makefile	/^quiet_cmd_db2ps = PS      $@$/;"	m
+quiet_cmd_docproc	DocBook/Makefile	/^quiet_cmd_docproc = DOCPROC $@$/;"	m
+quiet_cmd_fig2eps	DocBook/Makefile	/^quiet_cmd_fig2eps = FIG2EPS $@$/;"	m
+quiet_cmd_fig2png	DocBook/Makefile	/^quiet_cmd_fig2png = FIG2PNG $@$/;"	m
+quiet_gen_xml	DocBook/Makefile	/^ quiet_gen_xml = echo '  GEN     $@'$/;"	m
+rcvbufsz	accounting/getdelays.c	/^int rcvbufsz;$/;"	v
+rdtsc	prctl/disable-tsc-ctxt-sw-stress-test.c	/^uint64_t rdtsc() {$/;"	f
+rdtsc	prctl/disable-tsc-on-off-stress-test.c	/^uint64_t rdtsc() {$/;"	f
+rdtsc	prctl/disable-tsc-test.c	/^uint64_t rdtsc() {$/;"	f
+rdtsctask	prctl/disable-tsc-ctxt-sw-stress-test.c	/^void rdtsctask(void)$/;"	f	signature:(void)
+read_bytes	vm/hugepage-mmap.c	/^static void read_bytes(char *addr)$/;"	f	file:	signature:(char *addr)
+read_bytes	vm/map_hugetlb.c	/^static void read_bytes(char *addr)$/;"	f	file:	signature:(char *addr)
+read_obj	vm/slabinfo.c	/^static unsigned long read_obj(const char *name)$/;"	f	file:	signature:(const char *name)
+read_rom	ia64/aliasing-test.c	/^static int read_rom(char *path)$/;"	f	file:	signature:(char *path)
+read_slab_dir	vm/slabinfo.c	/^static void read_slab_dir(void)$/;"	f	file:	signature:(void)
+read_slab_obj	vm/slabinfo.c	/^static unsigned long read_slab_obj(struct slabinfo *s, const char *name)$/;"	f	file:	signature:(struct slabinfo *s, const char *name)
+read_statline	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub read_statline($) {$/;"	s
+reclaim_account	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+recvpacket	networking/timestamping/timestamping.c	/^static void recvpacket(int sock, int recvmsg_flags,$/;"	f	file:	signature:(int sock, int recvmsg_flags, int siocgstamp, int siocgstampns)
+red_zone	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+redzone	vm/slabinfo.c	/^int redzone = 0;$/;"	v
+ref	vm/slabinfo.c	/^	char *ref;$/;"	m	struct:aliasinfo	file:	access:public
+refs	vm/slabinfo.c	/^	int refs;$/;"	m	struct:slabinfo	file:	access:public
+release	networking/ifenslave.c	/^static int release(char *master_ifname, char *slave_ifname)$/;"	f	file:	signature:(char *master_ifname, char *slave_ifname)
+release	networking/ifenslave.c	/^static int release(char *master_ifname, char *slave_ifname);$/;"	p	file:	signature:(char *master_ifname, char *slave_ifname)
+remove_brackets	arm/Samsung/clksrc-change-registers.awk	/^function remove_brackets(b)$/;"	f
+rename_slabs	vm/slabinfo.c	/^static void rename_slabs(void)$/;"	f	file:	signature:(void)
+report	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub report() {$/;"	s
+report	vm/slabinfo.c	/^static void report(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+req_ifr	networking/ifenslave.c	/^	struct ifreq *req_ifr;$/;"	m	struct:dev_ifr	typeref:struct:dev_ifr::ifreq	file:	access:public
+req_name	networking/ifenslave.c	/^	char *req_name;$/;"	m	struct:dev_ifr	file:	access:public
+req_type	networking/ifenslave.c	/^	int req_type;$/;"	m	struct:dev_ifr	file:	access:public
+reset_device	lguest/lguest.c	/^static void reset_device(struct device *dev)$/;"	f	file:	signature:(struct device *dev)
+restart_guest	lguest/lguest.c	/^static void __attribute__((noreturn)) restart_guest(void)$/;"	f	file:	signature:(void)
+rfd	lguest/lguest.c	/^	int rfd;$/;"	m	struct:rng_info	file:	access:public
+rng_info	lguest/lguest.c	/^struct rng_info {$/;"	s	file:
+rng_info::rfd	lguest/lguest.c	/^	int rfd;$/;"	m	struct:rng_info	file:	access:public
+rng_input	lguest/lguest.c	/^static void rng_input(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+rule_docproc	DocBook/Makefile	/^define rule_docproc$/;"	m
+run_guest	lguest/lguest.c	/^static void __attribute__((noreturn)) run_guest(void)$/;"	f	file:	signature:(void)
+running	lguest/lguest.c	/^	bool running;$/;"	m	struct:device	file:	access:public
+sanity	vm/slabinfo.c	/^int sanity = 0;$/;"	v
+sanity_checks	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+saved_errno	networking/ifenslave.c	/^int saved_errno;$/;"	v
+scan_rom	ia64/aliasing-test.c	/^static int scan_rom(char *path, char *file)$/;"	f	file:	signature:(char *path, char *file)
+scan_tree	ia64/aliasing-test.c	/^static int scan_tree(char *path, char *file, off_t offset, size_t length, int touch)$/;"	f	file:	signature:(char *path, char *file, off_t offset, size_t length, int touch)
+segvtask	prctl/disable-tsc-ctxt-sw-stress-test.c	/^void segvtask(void)$/;"	f	signature:(void)
+send_cmd	accounting/getdelays.c	/^static int send_cmd(int sd, __u16 nlmsg_type, __u32 nlmsg_pid,$/;"	f	file:	signature:(int sd, __u16 nlmsg_type, __u32 nlmsg_pid, __u8 genl_cmd, __u16 nla_type, void *nla_data, int nla_len)
+sendpacket	networking/timestamping/timestamping.c	/^static void sendpacket(int sock, struct sockaddr *addr, socklen_t addr_len)$/;"	f	file:	signature:(int sock, struct sockaddr *addr, socklen_t addr_len)
+seq	connector/ucon.c	/^static __u32 seq;$/;"	v	file:
+service	lguest/lguest.c	/^	void (*service)(struct virtqueue *vq);$/;"	m	struct:virtqueue	file:	access:public
+set_config	lguest/lguest.c	/^static void set_config(struct device *dev, unsigned len, const void *conf)$/;"	f	file:	signature:(struct device *dev, unsigned len, const void *conf)
+set_debug	vm/slabinfo.c	/^int set_debug = 0;$/;"	v
+set_if_addr	networking/ifenslave.c	/^static int set_if_addr(char *master_ifname, char *slave_ifname)$/;"	f	file:	signature:(char *master_ifname, char *slave_ifname)
+set_if_addr	networking/ifenslave.c	/^static int set_if_addr(char *master_ifname, char *slave_ifname);$/;"	p	file:	signature:(char *master_ifname, char *slave_ifname)
+set_if_down	networking/ifenslave.c	/^static int set_if_down(char *ifname, short flags)$/;"	f	file:	signature:(char *ifname, short flags)
+set_if_down	networking/ifenslave.c	/^static int set_if_down(char *ifname, short flags);$/;"	p	file:	signature:(char *ifname, short flags)
+set_if_flags	networking/ifenslave.c	/^static int set_if_flags(char *ifname, short flags)$/;"	f	file:	signature:(char *ifname, short flags)
+set_if_flags	networking/ifenslave.c	/^static int set_if_flags(char *ifname, short flags);$/;"	p	file:	signature:(char *ifname, short flags)
+set_if_up	networking/ifenslave.c	/^static int set_if_up(char *ifname, short flags)$/;"	f	file:	signature:(char *ifname, short flags)
+set_if_up	networking/ifenslave.c	/^static int set_if_up(char *ifname, short flags);$/;"	p	file:	signature:(char *ifname, short flags)
+set_led	hwmon/hpfall.c	/^void set_led(int on)$/;"	f	signature:(int on)
+set_master_hwaddr	networking/ifenslave.c	/^static int set_master_hwaddr(char *master_ifname, struct sockaddr *hwaddr)$/;"	f	file:	signature:(char *master_ifname, struct sockaddr *hwaddr)
+set_master_hwaddr	networking/ifenslave.c	/^static int set_master_hwaddr(char *master_ifname, struct sockaddr *hwaddr);$/;"	p	file:	signature:(char *master_ifname, struct sockaddr *hwaddr)
+set_obj	vm/slabinfo.c	/^static void set_obj(struct slabinfo *s, const char *name, int n)$/;"	f	file:	signature:(struct slabinfo *s, const char *name, int n)
+set_slave_hwaddr	networking/ifenslave.c	/^static int set_slave_hwaddr(char *slave_ifname, struct sockaddr *hwaddr)$/;"	f	file:	signature:(char *slave_ifname, struct sockaddr *hwaddr)
+set_slave_hwaddr	networking/ifenslave.c	/^static int set_slave_hwaddr(char *slave_ifname, struct sockaddr *hwaddr);$/;"	p	file:	signature:(char *slave_ifname, struct sockaddr *hwaddr)
+set_slave_mtu	networking/ifenslave.c	/^static int set_slave_mtu(char *slave_ifname, int mtu)$/;"	f	file:	signature:(char *slave_ifname, int mtu)
+set_slave_mtu	networking/ifenslave.c	/^static int set_slave_mtu(char *slave_ifname, int mtu);$/;"	p	file:	signature:(char *slave_ifname, int mtu)
+set_unload_heads_path	hwmon/hpfall.c	/^int set_unload_heads_path(char *device)$/;"	f	signature:(char *device)
+setup_block_file	lguest/lguest.c	/^static void setup_block_file(const char *filename)$/;"	f	file:	signature:(const char *filename)
+setup_console	lguest/lguest.c	/^static void setup_console(void)$/;"	f	file:	signature:(void)
+setup_rng	lguest/lguest.c	/^static void setup_rng(void)$/;"	f	file:	signature:(void)
+setup_tun_net	lguest/lguest.c	/^static void setup_tun_net(char *arg)$/;"	f	file:	signature:(char *arg)
+should_segv	prctl/disable-tsc-on-off-stress-test.c	/^int should_segv = 0;$/;"	v
+show	filesystems/configfs/configfs_example_explicit.c	/^	ssize_t (*show)(struct childless *, char *);$/;"	m	struct:childless_attribute	file:	access:public
+show_activity	vm/slabinfo.c	/^int show_activity = 0;$/;"	v
+show_alias	vm/slabinfo.c	/^int show_alias = 0;$/;"	v
+show_empty	vm/slabinfo.c	/^int show_empty = 0;$/;"	v
+show_first_alias	vm/slabinfo.c	/^int show_first_alias = 0;$/;"	v
+show_inverted	vm/slabinfo.c	/^int show_inverted = 0;$/;"	v
+show_numa	vm/slabinfo.c	/^int show_numa = 0;$/;"	v
+show_ops	vm/slabinfo.c	/^int show_ops = 0;$/;"	v
+show_page	vm/page-types.c	/^static void show_page(unsigned long voffset,$/;"	f	file:	signature:(unsigned long voffset, unsigned long offset, uint64_t flags)
+show_page_range	vm/page-types.c	/^static void show_page_range(unsigned long voffset,$/;"	f	file:	signature:(unsigned long voffset, unsigned long offset, uint64_t flags)
+show_report	vm/slabinfo.c	/^int show_report = 0;$/;"	v
+show_single_ref	vm/slabinfo.c	/^int show_single_ref = 0;$/;"	v
+show_slab	vm/slabinfo.c	/^int show_slab = 0;$/;"	v
+show_summary	vm/page-types.c	/^static void show_summary(void)$/;"	f	file:	signature:(void)
+show_totals	vm/slabinfo.c	/^int show_totals = 0;$/;"	v
+show_track	vm/slabinfo.c	/^int show_track = 0;$/;"	v
+show_tracking	vm/slabinfo.c	/^static void show_tracking(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+showme	filesystems/configfs/configfs_example_explicit.c	/^	int showme;$/;"	m	struct:childless	file:	access:public
+showme	filesystems/configfs/configfs_example_macros.c	/^	int showme;$/;"	m	struct:childless	file:	access:public
+shrink	vm/slabinfo.c	/^int shrink = 0;$/;"	v
+sigint_handler	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub sigint_handler {$/;"	s
+signal_loop	trace/postprocess/trace-pagealloc-postprocess.pl	/^sub signal_loop() {$/;"	s
+sigsegv_cb	prctl/disable-tsc-on-off-stress-test.c	/^void sigsegv_cb(int sig)$/;"	f	signature:(int sig)
+sigsegv_cb	prctl/disable-tsc-test.c	/^void sigsegv_cb(int sig)$/;"	f	signature:(int sig)
+sigsegv_expect	prctl/disable-tsc-ctxt-sw-stress-test.c	/^void sigsegv_expect(int sig)$/;"	f	signature:(int sig)
+sigsegv_fail	prctl/disable-tsc-ctxt-sw-stress-test.c	/^void sigsegv_fail(int sig)$/;"	f	signature:(int sig)
+silent_gen_xml	DocBook/Makefile	/^silent_gen_xml = :$/;"	m
+simple_child	filesystems/configfs/configfs_example_explicit.c	/^struct simple_child {$/;"	s	file:
+simple_child	filesystems/configfs/configfs_example_macros.c	/^struct simple_child {$/;"	s	file:
+simple_child::item	filesystems/configfs/configfs_example_explicit.c	/^	struct config_item item;$/;"	m	struct:simple_child	typeref:struct:simple_child::config_item	file:	access:public
+simple_child::item	filesystems/configfs/configfs_example_macros.c	/^	struct config_item item;$/;"	m	struct:simple_child	typeref:struct:simple_child::config_item	file:	access:public
+simple_child::storeme	filesystems/configfs/configfs_example_explicit.c	/^	int storeme;$/;"	m	struct:simple_child	file:	access:public
+simple_child::storeme	filesystems/configfs/configfs_example_macros.c	/^	int storeme;$/;"	m	struct:simple_child	file:	access:public
+simple_child_attr_show	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t simple_child_attr_show(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, char *page)
+simple_child_attr_show	filesystems/configfs/configfs_example_macros.c	/^static ssize_t simple_child_attr_show(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, char *page)
+simple_child_attr_store	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t simple_child_attr_store(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, const char *page, size_t count)
+simple_child_attr_store	filesystems/configfs/configfs_example_macros.c	/^static ssize_t simple_child_attr_store(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, const char *page, size_t count)
+simple_child_attr_storeme	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_attribute simple_child_attr_storeme = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_attr_storeme	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_attribute simple_child_attr_storeme = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_attrs	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_attribute *simple_child_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_attrs	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_attribute *simple_child_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_item_ops	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_item_operations simple_child_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_child_item_ops	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_item_operations simple_child_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_child_release	filesystems/configfs/configfs_example_explicit.c	/^static void simple_child_release(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+simple_child_release	filesystems/configfs/configfs_example_macros.c	/^static void simple_child_release(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+simple_child_type	filesystems/configfs/configfs_example_explicit.c	/^static struct config_item_type simple_child_type = {$/;"	v	typeref:struct:config_item_type	file:
+simple_child_type	filesystems/configfs/configfs_example_macros.c	/^static struct config_item_type simple_child_type = {$/;"	v	typeref:struct:config_item_type	file:
+simple_children	filesystems/configfs/configfs_example_explicit.c	/^struct simple_children {$/;"	s	file:
+simple_children	filesystems/configfs/configfs_example_macros.c	/^struct simple_children {$/;"	s	file:
+simple_children::group	filesystems/configfs/configfs_example_explicit.c	/^	struct config_group group;$/;"	m	struct:simple_children	typeref:struct:simple_children::config_group	file:	access:public
+simple_children::group	filesystems/configfs/configfs_example_macros.c	/^	struct config_group group;$/;"	m	struct:simple_children	typeref:struct:simple_children::config_group	file:	access:public
+simple_children_attr_description	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_attribute simple_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_attr_description	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_attribute simple_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_attr_show	filesystems/configfs/configfs_example_explicit.c	/^static ssize_t simple_children_attr_show(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, char *page)
+simple_children_attr_show	filesystems/configfs/configfs_example_macros.c	/^static ssize_t simple_children_attr_show(struct config_item *item,$/;"	f	file:	signature:(struct config_item *item, struct configfs_attribute *attr, char *page)
+simple_children_attrs	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_attribute *simple_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_attrs	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_attribute *simple_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_group_ops	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_group_operations simple_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+simple_children_group_ops	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_group_operations simple_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+simple_children_item_ops	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_item_operations simple_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_children_item_ops	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_item_operations simple_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_children_make_item	filesystems/configfs/configfs_example_explicit.c	/^static struct config_item *simple_children_make_item(struct config_group *group, const char *name)$/;"	f	file:	signature:(struct config_group *group, const char *name)
+simple_children_make_item	filesystems/configfs/configfs_example_macros.c	/^static struct config_item *simple_children_make_item(struct config_group *group, const char *name)$/;"	f	file:	signature:(struct config_group *group, const char *name)
+simple_children_release	filesystems/configfs/configfs_example_explicit.c	/^static void simple_children_release(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+simple_children_release	filesystems/configfs/configfs_example_macros.c	/^static void simple_children_release(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+simple_children_subsys	filesystems/configfs/configfs_example_explicit.c	/^static struct configfs_subsystem simple_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+simple_children_subsys	filesystems/configfs/configfs_example_macros.c	/^static struct configfs_subsystem simple_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+simple_children_type	filesystems/configfs/configfs_example_explicit.c	/^static struct config_item_type simple_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+simple_children_type	filesystems/configfs/configfs_example_macros.c	/^static struct config_item_type simple_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+skfd	networking/ifenslave.c	/^int skfd = -1;		\/* AF_INET socket for ioctl() calls.*\/$/;"	v
+skip_zero	vm/slabinfo.c	/^int skip_zero = 1;$/;"	v
+slab	vm/slabinfo.c	/^	struct slabinfo *slab;$/;"	m	struct:aliasinfo	typeref:struct:aliasinfo::slabinfo	file:	access:public
+slab_activity	vm/slabinfo.c	/^static unsigned long slab_activity(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slab_debug	vm/slabinfo.c	/^static void slab_debug(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slab_empty	vm/slabinfo.c	/^static int slab_empty(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slab_mismatch	vm/slabinfo.c	/^static int slab_mismatch(char *slab)$/;"	f	file:	signature:(char *slab)
+slab_numa	vm/slabinfo.c	/^static void slab_numa(struct slabinfo *s, int mode)$/;"	f	file:	signature:(struct slabinfo *s, int mode)
+slab_shrink	vm/slabinfo.c	/^static void slab_shrink(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slab_size	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+slab_size	vm/slabinfo.c	/^static unsigned long slab_size(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slab_stats	vm/slabinfo.c	/^static void slab_stats(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slab_validate	vm/slabinfo.c	/^static void slab_validate(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slabcache	vm/slabinfo.c	/^static void slabcache(struct slabinfo *s)$/;"	f	file:	signature:(struct slabinfo *s)
+slabinfo	vm/slabinfo.c	/^struct slabinfo {$/;"	s	file:
+slabinfo	vm/slabinfo.c	/^} slabinfo[MAX_SLABS];$/;"	v	typeref:struct:slabinfo
+slabinfo::alias	vm/slabinfo.c	/^	int alias;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::aliases	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::align	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::alloc_fastpath	vm/slabinfo.c	/^	unsigned long alloc_fastpath, alloc_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::alloc_from_partial	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::alloc_refill	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::alloc_slab	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::alloc_slowpath	vm/slabinfo.c	/^	unsigned long alloc_fastpath, alloc_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::cache_dma	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::cpu_slabs	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::cpuslab_flush	vm/slabinfo.c	/^	unsigned long cpuslab_flush, deactivate_full, deactivate_empty;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::deactivate_empty	vm/slabinfo.c	/^	unsigned long cpuslab_flush, deactivate_full, deactivate_empty;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::deactivate_full	vm/slabinfo.c	/^	unsigned long cpuslab_flush, deactivate_full, deactivate_empty;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::deactivate_remote_frees	vm/slabinfo.c	/^	unsigned long deactivate_remote_frees, order_fallback;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::deactivate_to_head	vm/slabinfo.c	/^	unsigned long deactivate_to_head, deactivate_to_tail;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::deactivate_to_tail	vm/slabinfo.c	/^	unsigned long deactivate_to_head, deactivate_to_tail;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::destroy_by_rcu	vm/slabinfo.c	/^	int aliases, align, cache_dma, cpu_slabs, destroy_by_rcu;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::free_add_partial	vm/slabinfo.c	/^	unsigned long free_frozen, free_add_partial, free_remove_partial;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::free_fastpath	vm/slabinfo.c	/^	unsigned long free_fastpath, free_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::free_frozen	vm/slabinfo.c	/^	unsigned long free_frozen, free_add_partial, free_remove_partial;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::free_remove_partial	vm/slabinfo.c	/^	unsigned long free_frozen, free_add_partial, free_remove_partial;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::free_slab	vm/slabinfo.c	/^	unsigned long alloc_from_partial, alloc_slab, free_slab, alloc_refill;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::free_slowpath	vm/slabinfo.c	/^	unsigned long free_fastpath, free_slowpath;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::hwcache_align	vm/slabinfo.c	/^	int hwcache_align, object_size, objs_per_slab;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::name	vm/slabinfo.c	/^	char *name;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::numa	vm/slabinfo.c	/^	int numa[MAX_NODES];$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::numa_partial	vm/slabinfo.c	/^	int numa_partial[MAX_NODES];$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::object_size	vm/slabinfo.c	/^	int hwcache_align, object_size, objs_per_slab;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::objects	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::objects_partial	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::objects_total	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::objs_per_slab	vm/slabinfo.c	/^	int hwcache_align, object_size, objs_per_slab;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::order	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::order_fallback	vm/slabinfo.c	/^	unsigned long deactivate_remote_frees, order_fallback;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::partial	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::poison	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::reclaim_account	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::red_zone	vm/slabinfo.c	/^	int order, poison, reclaim_account, red_zone;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::refs	vm/slabinfo.c	/^	int refs;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::sanity_checks	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::slab_size	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::slabs	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::store_user	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+slabinfo::trace	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+slabs	vm/slabinfo.c	/^	unsigned long partial, objects, slabs, objects_partial, objects_total;$/;"	m	struct:slabinfo	file:	access:public
+slabs	vm/slabinfo.c	/^int slabs = 0;$/;"	v
+slave_flags	networking/ifenslave.c	/^struct ifreq slave_mtu, slave_flags, slave_hwaddr;$/;"	v	typeref:struct:
+slave_hwaddr	networking/ifenslave.c	/^struct ifreq slave_mtu, slave_flags, slave_hwaddr;$/;"	v	typeref:struct:
+slave_ifra	networking/ifenslave.c	/^struct dev_ifr slave_ifra[] = {$/;"	v	typeref:struct:dev_ifr
+slave_mtu	networking/ifenslave.c	/^struct ifreq slave_mtu, slave_flags, slave_hwaddr;$/;"	v	typeref:struct:ifreq
+sort_active	vm/slabinfo.c	/^int sort_active = 0;$/;"	v
+sort_aliases	vm/slabinfo.c	/^static void sort_aliases(void)$/;"	f	file:	signature:(void)
+sort_size	vm/slabinfo.c	/^int sort_size = 0;$/;"	v
+sort_slabs	vm/slabinfo.c	/^static void sort_slabs(void)$/;"	f	file:	signature:(void)
+sp8870	dvb/get_dvb_firmware	/^sub sp8870 {$/;"	s
+sp887x	dvb/get_dvb_firmware	/^sub sp887x {$/;"	s
+speed	spi/spidev_test.c	/^static uint32_t speed = 500000;$/;"	v	file:
+splitdefine	arm/Samsung/clksrc-change-registers.awk	/^function splitdefine(l, p)$/;"	f
+start	lguest/lguest.c	/^	struct timeval start;$/;"	m	struct:console_abort	typeref:struct:console_abort::timeval	file:	access:public
+start_device	lguest/lguest.c	/^static void start_device(struct device *dev)$/;"	f	file:	signature:(struct device *dev)
+state_name	laptops/dslm.c	/^static char *state_name(int i)$/;"	f	file:	signature:(int i)
+stime	accounting/getdelays.c	/^__u64 stime, utime;$/;"	v
+store	filesystems/configfs/configfs_example_explicit.c	/^	ssize_t (*store)(struct childless *, const char *, size_t);$/;"	m	struct:childless_attribute	file:	access:public
+store_size	vm/slabinfo.c	/^static int store_size(char *buffer, unsigned long value)$/;"	f	file:	signature:(char *buffer, unsigned long value)
+store_user	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+storeme	filesystems/configfs/configfs_example_explicit.c	/^	int storeme;$/;"	m	struct:childless	file:	access:public
+storeme	filesystems/configfs/configfs_example_explicit.c	/^	int storeme;$/;"	m	struct:simple_child	file:	access:public
+storeme	filesystems/configfs/configfs_example_macros.c	/^	int storeme;$/;"	m	struct:childless	file:	access:public
+storeme	filesystems/configfs/configfs_example_macros.c	/^	int storeme;$/;"	m	struct:simple_child	file:	access:public
+str2ip	lguest/lguest.c	/^static u32 str2ip(const char *ipaddr)$/;"	f	file:	signature:(const char *ipaddr)
+str2mac	lguest/lguest.c	/^static void str2mac(const char *macaddr, unsigned char mac[6])$/;"	f	file:	signature:(const char *macaddr, unsigned char mac[6])
+subsys	filesystems/configfs/configfs_example_explicit.c	/^	struct configfs_subsystem subsys;$/;"	m	struct:childless	typeref:struct:childless::configfs_subsystem	file:	access:public
+subsys	filesystems/configfs/configfs_example_macros.c	/^	struct configfs_subsystem subsys;$/;"	m	struct:childless	typeref:struct:childless::configfs_subsystem	file:	access:public
+sum	ia64/aliasing-test.c	/^int sum;$/;"	v
+sync	networking/timestamping/timestamping.c	/^static const unsigned char sync[] = {$/;"	v	file:
+syntax	dvb/get_dvb_firmware	/^sub syntax() {$/;"	s
+task	prctl/disable-tsc-on-off-stress-test.c	/^void task(void)$/;"	f	signature:(void)
+task_context_switch_counts	accounting/getdelays.c	/^static void task_context_switch_counts(struct taskstats *t)$/;"	f	file:	signature:(struct taskstats *t)
+tda10045	dvb/get_dvb_firmware	/^sub tda10045 {$/;"	s
+tda10046	dvb/get_dvb_firmware	/^sub tda10046 {$/;"	s
+tda10046lifeview	dvb/get_dvb_firmware	/^sub tda10046lifeview {$/;"	s
+tell_kernel	lguest/lguest.c	/^static void tell_kernel(unsigned long start)$/;"	f	file:	signature:(unsigned long start)
+thread	lguest/lguest.c	/^	pid_t thread;$/;"	m	struct:virtqueue	file:	access:public
+to_childless	filesystems/configfs/configfs_example_explicit.c	/^static inline struct childless *to_childless(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+to_childless	filesystems/configfs/configfs_example_macros.c	/^static inline struct childless *to_childless(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+to_guest_phys	lguest/lguest.c	/^static unsigned long to_guest_phys(const void *addr)$/;"	f	file:	signature:(const void *addr)
+to_simple_child	filesystems/configfs/configfs_example_explicit.c	/^static inline struct simple_child *to_simple_child(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+to_simple_child	filesystems/configfs/configfs_example_macros.c	/^static inline struct simple_child *to_simple_child(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+to_simple_children	filesystems/configfs/configfs_example_explicit.c	/^static inline struct simple_children *to_simple_children(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+to_simple_children	filesystems/configfs/configfs_example_macros.c	/^static inline struct simple_children *to_simple_children(struct config_item *item)$/;"	f	file:	signature:(struct config_item *item)
+total_pages	vm/page-types.c	/^static unsigned long	total_pages;$/;"	v	file:
+totals	vm/slabinfo.c	/^static void totals(void)$/;"	f	file:	signature:(void)
+trace	vm/slabinfo.c	/^	int sanity_checks, slab_size, store_user, trace;$/;"	m	struct:slabinfo	file:	access:public
+tracing	vm/slabinfo.c	/^int tracing = 0;$/;"	v
+tracking	vm/slabinfo.c	/^int tracking = 0;$/;"	v
+transfer	spi/spidev_test.c	/^static void transfer(int fd)$/;"	f	file:	signature:(int fd)
+trigger_irq	lguest/lguest.c	/^static void trigger_irq(struct virtqueue *vq)$/;"	f	file:	signature:(struct virtqueue *vq)
+tsc_names	prctl/disable-tsc-test.c	/^const char *tsc_names[] =$/;"	v
+tunfd	lguest/lguest.c	/^	int tunfd;$/;"	m	struct:net_info	file:	access:public
+u16	lguest/lguest.c	/^typedef uint16_t u16;$/;"	t	file:
+u16	networking/ifenslave.c	/^typedef __uint16_t u16;		\/* ditto *\/$/;"	t	file:
+u32	lguest/lguest.c	/^typedef uint32_t u32;$/;"	t	file:
+u32	networking/ifenslave.c	/^typedef __uint32_t u32;		\/* ditto *\/$/;"	t	file:
+u64	lguest/lguest.c	/^typedef unsigned long long u64;$/;"	t	file:
+u64	networking/ifenslave.c	/^typedef unsigned long long u64;	\/* hack, so we may include kernel's ethtool.h *\/$/;"	t	file:
+u8	lguest/lguest.c	/^typedef uint8_t u8;$/;"	t	file:
+u8	networking/ifenslave.c	/^typedef __uint8_t u8;		\/* ditto *\/$/;"	t	file:
+ulog	connector/ucon.c	52;"	d	file:
+ulog	connector/ucon.c	54;"	d	file:
+unload_heads_path	hwmon/hpfall.c	/^char unload_heads_path[64];$/;"	v
+unpoison_page	vm/page-types.c	/^static int unpoison_page(unsigned long offset)$/;"	f	file:	signature:(unsigned long offset)
+unshield	dvb/get_dvb_firmware	/^sub unshield {$/;"	s
+unzip	dvb/get_dvb_firmware	/^sub unzip {$/;"	s
+update_device_status	lguest/lguest.c	/^static void update_device_status(struct device *dev)$/;"	f	file:	signature:(struct device *dev)
+usage	accounting/getdelays.c	/^static void usage(void)$/;"	f	file:	signature:(void)
+usage	connector/ucon.c	/^static void usage(void)$/;"	f	file:	signature:(void)
+usage	laptops/dslm.c	/^static void usage(void)$/;"	f	file:	signature:(void)
+usage	lguest/lguest.c	/^static void usage(void)$/;"	f	file:	signature:(void)
+usage	networking/timestamping/timestamping.c	/^static void usage(const char *error)$/;"	f	file:	signature:(const char *error)
+usage	vm/page-types.c	/^static void usage(void)$/;"	f	file:	signature:(void)
+usage	vm/slabinfo.c	/^static void usage(void)$/;"	f	file:	signature:(void)
+usage_msg	networking/ifenslave.c	/^static const char *usage_msg =$/;"	v	file:
+use-db2x	DocBook/Makefile	/^	use-db2x = db2x$/;"	m
+use-db2x	DocBook/Makefile	/^	use-db2x = notfound$/;"	m
+use-xmlto	DocBook/Makefile	/^	use-xmlto = notfound$/;"	m
+use-xmlto	DocBook/Makefile	/^	use-xmlto = xmlto$/;"	m
+utime	accounting/getdelays.c	/^__u64 stime, utime;$/;"	v
+v_print	networking/ifenslave.c	240;"	d	file:
+valid_disk	hwmon/hpfall.c	/^int valid_disk(void)$/;"	f	signature:(void)
+validate	vm/slabinfo.c	/^int validate = 0;$/;"	v
+vblk_info	lguest/lguest.c	/^struct vblk_info {$/;"	s	file:
+vblk_info::fd	lguest/lguest.c	/^	int fd;$/;"	m	struct:vblk_info	file:	access:public
+vblk_info::len	lguest/lguest.c	/^	off64_t len;$/;"	m	struct:vblk_info	file:	access:public
+verbose	lguest/lguest.c	/^static bool verbose;$/;"	v	file:
+verbose	lguest/lguest.c	80;"	d	file:
+verbose	spi/spidev_fdx.c	/^static int verbose;$/;"	v	file:
+verify	dvb/get_dvb_firmware	/^sub verify {$/;"	s
+verify	video4linux/extract_xc3028.pl	/^sub verify ($$)$/;"	s
+version	networking/ifenslave.c	/^static char *version =$/;"	v	file:
+virtqueue	lguest/lguest.c	/^struct virtqueue {$/;"	s	file:
+virtqueue::config	lguest/lguest.c	/^	struct lguest_vqconfig config;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::lguest_vqconfig	file:	access:public
+virtqueue::dev	lguest/lguest.c	/^	struct device *dev;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::device	file:	access:public
+virtqueue::eventfd	lguest/lguest.c	/^	int eventfd;$/;"	m	struct:virtqueue	file:	access:public
+virtqueue::last_avail_idx	lguest/lguest.c	/^	u16 last_avail_idx;$/;"	m	struct:virtqueue	file:	access:public
+virtqueue::next	lguest/lguest.c	/^	struct virtqueue *next;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::virtqueue	file:	access:public
+virtqueue::pending_used	lguest/lguest.c	/^	unsigned int pending_used;$/;"	m	struct:virtqueue	file:	access:public
+virtqueue::service	lguest/lguest.c	/^	void (*service)(struct virtqueue *vq);$/;"	m	struct:virtqueue	file:	access:public
+virtqueue::thread	lguest/lguest.c	/^	pid_t thread;$/;"	m	struct:virtqueue	file:	access:public
+virtqueue::vring	lguest/lguest.c	/^	struct vring vring;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::vring	file:	access:public
+vp7041	dvb/get_dvb_firmware	/^sub vp7041 {$/;"	s
+vq	lguest/lguest.c	/^	struct virtqueue *vq;$/;"	m	struct:device	typeref:struct:device::virtqueue	file:	access:public
+vring	lguest/lguest.c	/^	struct vring vring;$/;"	m	struct:virtqueue	typeref:struct:virtqueue::vring	file:	access:public
+wait_for_vq_desc	lguest/lguest.c	/^static unsigned wait_for_vq_desc(struct virtqueue *vq,$/;"	f	file:	signature:(struct virtqueue *vq, struct iovec iov[], unsigned int *out_num, unsigned int *in_num)
+walk_addr_ranges	vm/page-types.c	/^static void walk_addr_ranges(void)$/;"	f	file:	signature:(void)
+walk_pfn	vm/page-types.c	/^static void walk_pfn(unsigned long voffset,$/;"	f	file:	signature:(unsigned long voffset, unsigned long index, unsigned long count)
+walk_task	vm/page-types.c	/^static void walk_task(unsigned long index, unsigned long count)$/;"	f	file:	signature:(unsigned long index, unsigned long count)
+walk_vma	vm/page-types.c	/^static void walk_vma(unsigned long index, unsigned long count)$/;"	f	file:	signature:(unsigned long index, unsigned long count)
+well_known_flags	vm/page-types.c	/^static uint64_t well_known_flags(uint64_t flags)$/;"	f	file:	signature:(uint64_t flags)
+wgetfile	dvb/get_dvb_firmware	/^sub wgetfile {$/;"	s
+width	blackfin/gptimers-example.c	/^	uint32_t period, width;$/;"	m	struct:gptimer_data	file:	access:public
+will_block	lguest/lguest.c	/^static bool will_block(int fd)$/;"	f	file:	signature:(int fd)
+wmb	lguest/lguest.c	180;"	d	file:
+write_bytes	vm/hugepage-mmap.c	/^static void write_bytes(char *addr)$/;"	f	file:	signature:(char *addr)
+write_bytes	vm/map_hugetlb.c	/^static void write_bytes(char *addr)$/;"	f	file:	signature:(char *addr)
+write_hunk	video4linux/extract_xc3028.pl	/^sub write_hunk($$)$/;"	s
+write_hunk_fix_endian	video4linux/extract_xc3028.pl	/^sub write_hunk_fix_endian($$)$/;"	s
+write_int	hwmon/hpfall.c	/^void write_int(char *path, int i)$/;"	f	signature:(char *path, int i)
+write_le16	video4linux/extract_xc3028.pl	/^sub write_le16($)$/;"	s
+write_le32	video4linux/extract_xc3028.pl	/^sub write_le32($)$/;"	s
+write_le64	video4linux/extract_xc3028.pl	/^sub write_le64($$)$/;"	s
+xmltotemplate	DocBook/Makefile	/^xmltotemplate = xmlto TYPE $(XMLTOFLAGS) -o $(dir $@) $<$/;"	m
